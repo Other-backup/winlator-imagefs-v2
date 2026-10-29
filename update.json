@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "packageName": "com.winlator.cmod",
+  "versionCode": 21,
+  "versionName": "4.1-upstream.1",
+  "notes": "Signed upstream baseline. Successor updates are published to this channel.",
+  "patches": {}
+}
