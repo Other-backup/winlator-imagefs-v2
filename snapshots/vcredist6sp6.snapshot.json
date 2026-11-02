@@ -1,0 +1,221 @@
+{
+  "schema": 1,
+  "component": "vcredist6sp6",
+  "recorded": "2026-10-10T01:35:18Z",
+  "wine": "wine-9.0 (Ubuntu 9.0~repack-4build3)",
+  "arch": "win64",
+  "installer": {
+    "name": "vcredist6sp6_inner.exe",
+    "size": 1821920,
+    "sha256": "ce05a2ad669fdc331cf43b4637f7c596c279685bc45eab005c15eb5ea495d5ea",
+    "args": [
+      "/Q"
+    ],
+    "exit": 43,
+    "seconds": 2,
+    "extractors": [
+      "innoextract",
+      "7z"
+    ]
+  },
+  "installers": [
+    {
+      "name": "vcredist6sp6_inner.exe",
+      "size": 1821920,
+      "sha256": "ce05a2ad669fdc331cf43b4637f7c596c279685bc45eab005c15eb5ea495d5ea",
+      "args": [
+        "/Q"
+      ]
+    }
+  ],
+  "after": [],
+  "winver": null,
+  "stats": {
+    "files": 10,
+    "from_installer": 0,
+    "inline": 0,
+    "archived": 10,
+    "missing": 0,
+    "removed": 0,
+    "registry": 16
+  },
+  "files_archive": {
+    "name": "vcredist6sp6.files.tar.xz",
+    "size": 973832,
+    "sha256": "47a2cd294afdd7c87c4957c37c77123933a7e6145db8a7ba9d2cfe4780adde67",
+    "licence": "Microsoft Visual C++ 6 runtime redistributable: licensed for redistribution with applications."
+  },
+  "files": [
+    {
+      "path": "windows/syswow64/asycfilt.dll",
+      "size": 147728,
+      "sha256": "de83c9d9203050b40c098e4143ef8f577aa90016c7a64d4f2931b57a4c43e566",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/atl.dll",
+      "size": 90169,
+      "sha256": "ddcd10caa5a980e44c37e42a65d00dbc9595137268230a2c29764ac16658fac8",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/comcat.dll",
+      "size": 22288,
+      "sha256": "96d04cdfaf4f4d7b8722b139a15074975d4c244302f78034b7be65df1a92fd03",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/mfc42.dll",
+      "size": 1019959,
+      "sha256": "a387a63bc7c66b44170f131d4716e9696c97ace7db5f9b2de47f9fa903c81d1e",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/msvcirt.dll",
+      "size": 77878,
+      "sha256": "62cf072a6dd999e5e1babb1ff54ec2a34c5a5a171c166f259daa8de1b1824275",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/msvcp60.dll",
+      "size": 401462,
+      "sha256": "f1fd0f1a54f196b19a6f21044092c89c02353dad173c236d80f6474cb8a7ea7f",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/msvcrt.dll",
+      "size": 278581,
+      "sha256": "babbfb63bb9ddd3763a5f528e3c438a590c7cb63d75ac4da7d1cdd0f7a107d0c",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/oleaut32.dll",
+      "size": 598288,
+      "sha256": "baeb2f7c1b8be56738d34e1d1ddf8e0eebd3a633215dc1575e14656be38b939d",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/olepro32.dll",
+      "size": 164112,
+      "sha256": "789c3c45eda1749bd939f4a96616e1e9ef1b7dcc62a2889f65088954c64d0938",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/stdole2.tlb",
+      "size": 17920,
+      "sha256": "6ea525bface5467c1045c3708f339a4b92a3a273f70656e061c7f7322c56d667",
+      "archived": true
+    }
+  ],
+  "removed": [],
+  "registry": [
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Typelib\\{44EC0535-400F-11D0-9DCD-00A0C90391D3}\\1.0\\0\\win32",
+      "name": "",
+      "type": "sz",
+      "data": "C:\\windows\\system32\\atl.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{0BE35200-8F91-11CE-9DE3-00AA004BB851}",
+      "name": "",
+      "type": "sz",
+      "data": "Font Property Page"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{0BE35200-8F91-11CE-9DE3-00AA004BB851}\\InprocServer32",
+      "name": "",
+      "type": "sz",
+      "data": "C:\\windows\\system32\\mfc42.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{0BE35201-8F91-11CE-9DE3-00AA004BB851}",
+      "name": "",
+      "type": "sz",
+      "data": "Color Property Page"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{0BE35201-8F91-11CE-9DE3-00AA004BB851}\\InprocServer32",
+      "name": "",
+      "type": "sz",
+      "data": "C:\\windows\\system32\\mfc42.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{0BE35202-8F91-11CE-9DE3-00AA004BB851}",
+      "name": "",
+      "type": "sz",
+      "data": "Picture Property Page"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{0BE35202-8F91-11CE-9DE3-00AA004BB851}\\InprocServer32",
+      "name": "",
+      "type": "sz",
+      "data": "C:\\windows\\system32\\mfc42.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\VCRedist",
+      "type": "key"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\RunOnce",
+      "name": "atl.dll",
+      "type": "sz",
+      "data": "C:\\windows\\system32\\regsvr32 /s C:\\windows\\system32\\atl.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\RunOnce",
+      "name": "comcat.dll",
+      "type": "sz",
+      "data": "C:\\windows\\system32\\regsvr32 /s C:\\windows\\system32\\comcat.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\RunOnce",
+      "name": "mfc42.dll",
+      "type": "sz",
+      "data": "C:\\windows\\system32\\regsvr32 /s C:\\windows\\system32\\mfc42.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\RunOnce",
+      "name": "oleaut32.dll",
+      "type": "sz",
+      "data": "C:\\windows\\system32\\regsvr32 /s C:\\windows\\system32\\oleaut32.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\RunOnce",
+      "name": "olepro32.dll",
+      "type": "sz",
+      "data": "C:\\windows\\system32\\regsvr32 /s C:\\windows\\system32\\olepro32.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\RunServices",
+      "type": "key"
+    },
+    {
+      "hive": "HKLM",
+      "key": "System\\CurrentControlSet\\Control\\Class\\{4D36E968-E325-11CE-BFC1-08002BE10318}\\0000",
+      "name": "DriverDateData",
+      "type": "binary",
+      "data": "fa2f21995758dd01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "System\\CurrentControlSet\\Control\\Class\\{4D36E968-E325-11CE-BFC1-08002BE10318}\\0000",
+      "name": "SymbolicLinkValue",
+      "type": "binary",
+      "data": "5c00520065006700690073007400720079005c004d0061006300680069006e0065005c00530079007300740065006d005c00430075007200720065006e00740043006f006e00740072006f006c005300650074005c0043006f006e00740072006f006c005c0043006c006100730073005c007b00340044003300360045003900360038002d0045003300320035002d0031003100430045002d0042004600430031002d003000380030003000320042004500310030003300310038007d005c003000300030003000"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "schema": 1,
+  "component": "dirac",
+  "recorded": "2026-10-10T06:40:16Z",
+  "wine": "wine-9.0 (Ubuntu 9.0~repack-4build3)",
+  "arch": "win32",
+  "layout": "win64",
+  "installer": {
+    "name": "dirac.exe",
+    "size": 1376877,
+    "sha256": "7257de4be940405637bb5d11c1179f7db86f165f21fc0ba24f42a9ecbc55fe20",
+    "args": [],
+    "exit": 0,
+    "seconds": 3,
+    "extractors": [
+      "innoextract",
+      "7z"
+    ]
+  },
+  "installers": [
+    {
+      "name": "dirac.exe",
+      "size": 1376877,
+      "sha256": "7257de4be940405637bb5d11c1179f7db86f165f21fc0ba24f42a9ecbc55fe20",
+      "args": []
+    }
+  ],
+  "after": [
+    "vcredist2008"
+  ],
+  "winver": null,
+  "stats": {
+    "files": 6,
+    "from_installer": 6,
+    "inline": 0,
+    "archived": 0,
+    "missing": 0,
+    "removed": 0,
+    "registry": 21
+  },
+  "files_archive": null,
+  "files": [
+    {
+      "path": "Program Files (x86)/Dirac/DiracDecoder.dll",
+      "size": 320512,
+      "sha256": "a5608d9d29d3f2e34fab2b5d556739b6ba87ad0e07222b78e1b8bdeb044571f1",
+      "source": "DiracDecoder.dll"
+    },
+    {
+      "path": "Program Files (x86)/Dirac/DiracSplitter-Dirac.ax",
+      "size": 158208,
+      "sha256": "caa0a1b6918ec4e53964719e7a14e9666bde6c15f43e54226a52b9208f492be7",
+      "source": "DiracSplitter-Dirac.ax"
+    },
+    {
+      "path": "Program Files (x86)/Dirac/DiracSplitter-libschroedinger.ax",
+      "size": 159232,
+      "sha256": "fcae2e0a1923347445c5c1cf26447fc8cf7774dea292561bdce1e8e75a45b601",
+      "source": "DiracSplitter-libschroedinger.ax"
+    },
+    {
+      "path": "Program Files (x86)/Dirac/liboil-0.3-0.dll",
+      "size": 1587125,
+      "sha256": "048b3f5541029e310224d5b3481244d9af05af90a5220beab9eaadf2710c57f2",
+      "source": "liboil-0.3-0.dll"
+    },
+    {
+      "path": "Program Files (x86)/Dirac/libschroedinger-1.0-0.dll",
+      "size": 2046363,
+      "sha256": "8213290b4d06058277c08b0ca8ac3b9367bf19a4851c9a38e7ef2c9c9f01e880",
+      "source": "libschroedinger-1.0-0.dll"
+    },
+    {
+      "path": "Program Files (x86)/Dirac/uninst.exe",
+      "size": 51779,
+      "sha256": "16fe4a4b7cc0d9b15c4dd6febeb95837d7d3b06bab93e041874a8377bca67ee4",
+      "source": "uninst.exe"
+    }
+  ],
+  "removed": [],
+  "registry": [
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{083863F1-70DE-11D0-BD40-00A0C911CE86}\\Instance\\{09E7F58E-71A1-419D-B0A0-E524AE1454A9}",
+      "name": "CLSID",
+      "type": "sz",
+      "data": "{09E7F58E-71A1-419D-B0A0-E524AE1454A9}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{083863F1-70DE-11D0-BD40-00A0C911CE86}\\Instance\\{09E7F58E-71A1-419D-B0A0-E524AE1454A9}",
+      "name": "FilterData",
+      "type": "binary",
+      "data": "02000000000060000000000000000000"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{083863F1-70DE-11D0-BD40-00A0C911CE86}\\Instance\\{09E7F58E-71A1-419D-B0A0-E524AE1454A9}",
+      "name": "FriendlyName",
+      "type": "sz",
+      "data": "Dirac Source"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{083863F1-70DE-11D0-BD40-00A0C911CE86}\\Instance\\{5899CFB9-948F-4869-A999-5544ECB38BA5}",
+      "name": "CLSID",
+      "type": "sz",
+      "data": "{5899CFB9-948F-4869-A999-5544ECB38BA5}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{083863F1-70DE-11D0-BD40-00A0C911CE86}\\Instance\\{5899CFB9-948F-4869-A999-5544ECB38BA5}",
+      "name": "FilterData",
+      "type": "binary",
+      "data": "02000000000060000200000000000000307069330000000001000000020000000000000000000000307479330000000060000000700000003174793300000000600000008000000031706933080000000100000000000000000000000000000083eb36e44f52ce119f530020af0ba7700fa09da22ba2ea4098de2f7fecada5de00000000000000000000000000000000"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{083863F1-70DE-11D0-BD40-00A0C911CE86}\\Instance\\{5899CFB9-948F-4869-A999-5544ECB38BA5}",
+      "name": "FriendlyName",
+      "type": "sz",
+      "data": "Dirac Splitter"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{083863F1-70DE-11D0-BD40-00A0C911CE86}\\Instance\\{F78CF248-180E-4713-B107-B13F7B5C31E1}",
+      "name": "CLSID",
+      "type": "sz",
+      "data": "{F78CF248-180E-4713-B107-B13F7B5C31E1}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{083863F1-70DE-11D0-BD40-00A0C911CE86}\\Instance\\{F78CF248-180E-4713-B107-B13F7B5C31E1}",
+      "name": "FilterData",
+      "type": "binary",
+      "data": "0200000000004000020000000000000030706933000000000100000001000000000000000000000030747933000000006000000070000000317069330800000001000000010000000000000000000000307479330000000060000000800000007669647300001000800000aa00389b716472616300001000800000aa00389b7100000000000000000000000000000000"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{083863F1-70DE-11D0-BD40-00A0C911CE86}\\Instance\\{F78CF248-180E-4713-B107-B13F7B5C31E1}",
+      "name": "FriendlyName",
+      "type": "sz",
+      "data": "Dirac Video Decoder"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{09E7F58E-71A1-419D-B0A0-E524AE1454A9}",
+      "name": "",
+      "type": "sz",
+      "data": "Dirac Source"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{09E7F58E-71A1-419D-B0A0-E524AE1454A9}\\InprocServer32",
+      "name": "",
+      "type": "sz",
+      "data": "C:\\Program Files (x86)\\Dirac\\DiracSplitter-libschroedinger.ax"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{09E7F58E-71A1-419D-B0A0-E524AE1454A9}\\InprocServer32",
+      "name": "ThreadingModel",
+      "type": "sz",
+      "data": "Both"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{5899CFB9-948F-4869-A999-5544ECB38BA5}",
+      "name": "",
+      "type": "sz",
+      "data": "Dirac Splitter"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{5899CFB9-948F-4869-A999-5544ECB38BA5}\\InprocServer32",
+      "name": "",
+      "type": "sz",
+      "data": "C:\\Program Files (x86)\\Dirac\\DiracSplitter-libschroedinger.ax"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{5899CFB9-948F-4869-A999-5544ECB38BA5}\\InprocServer32",
+      "name": "ThreadingModel",
+      "type": "sz",
+      "data": "Both"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{F78CF248-180E-4713-B107-B13F7B5C31E1}",
+      "name": "",
+      "type": "sz",
+      "data": "Dirac Video Decoder"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{F78CF248-180E-4713-B107-B13F7B5C31E1}\\InprocServer32",
+      "name": "",
+      "type": "sz",
+      "data": "C:\\Program Files (x86)\\Dirac\\DiracSplitter-libschroedinger.ax"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{F78CF248-180E-4713-B107-B13F7B5C31E1}\\InprocServer32",
+      "name": "ThreadingModel",
+      "type": "sz",
+      "data": "Both"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Media Type\\{e436eb83-524f-11ce-9f53-0020af0ba770}\\{A29DA00F-A22B-40EA-98DE-2F7FECADA5DE}",
+      "name": "0",
+      "type": "sz",
+      "data": "0,8,,4B572D4449524143"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Media Type\\{e436eb83-524f-11ce-9f53-0020af0ba770}\\{A29DA00F-A22B-40EA-98DE-2F7FECADA5DE}",
+      "name": "Source Filter",
+      "type": "sz",
+      "data": "{E436EBB5-524F-11CE-9F53-0020AF0BA770}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "System\\CurrentControlSet\\Control\\Class\\{4D36E968-E325-11CE-BFC1-08002BE10318}\\0000",
+      "name": "DriverDateData",
+      "type": "binary",
+      "data": "8c29e6298258dd01"
+    }
+  ]
+}

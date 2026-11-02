@@ -1,0 +1,3164 @@
+{
+  "schema": 1,
+  "component": "dotnet20sp1",
+  "recorded": "2026-10-10T17:12:31Z",
+  "wine": "wine-9.0 (Ubuntu 9.0~repack-4build3)",
+  "arch": "win32",
+  "layout": "win64",
+  "installer": {
+    "name": "dotnet20sp1__NetFx20SP1_x86.exe",
+    "size": 24758792,
+    "sha256": "c36c3a1d074de32d53f371c665243196a7608652a2fc6be9520312d5ce560871",
+    "args": [
+      "/q"
+    ],
+    "exit": 0,
+    "seconds": 29,
+    "extractors": [
+      "innoextract",
+      "7z"
+    ]
+  },
+  "installers": [
+    {
+      "name": "dotnet20sp1__NetFx20SP1_x86.exe",
+      "size": 24758792,
+      "sha256": "c36c3a1d074de32d53f371c665243196a7608652a2fc6be9520312d5ce560871",
+      "args": [
+        "/q"
+      ]
+    }
+  ],
+  "after": [
+    "dotnet20"
+  ],
+  "winver": "win2k",
+  "stats": {
+    "files": 238,
+    "from_installer": 0,
+    "inline": 0,
+    "archived": 238,
+    "missing": 0,
+    "removed": 56,
+    "registry": 209
+  },
+  "files_archive": {
+    "name": "dotnet20sp1.files.tar.xz",
+    "size": 26146696,
+    "sha256": "d270eda49dd19983b4fad73eec889e53ca9068630f66603f7b32c7e3c80de760",
+    "licence": "Microsoft .NET Framework 2.0 SP1 redistributable: licensed for redistribution with applications."
+  },
+  "files": [
+    {
+      "path": "Program Files (x86)/Common Files/Microsoft Shared/DW/DW20.EXE",
+      "size": 637272,
+      "sha256": "6e9a4b2f2f62a5fc38c06c47c7ca6905276d05166da99b5fb70573934a0257b8",
+      "archived": true
+    },
+    {
+      "path": "Program Files (x86)/Common Files/Microsoft Shared/DW/DWDCW20.DLL",
+      "size": 43360,
+      "sha256": "c4e1692ebad648e0e139464126a1138b67a7e34575047edcfa7550959ee53201",
+      "archived": true
+    },
+    {
+      "path": "Program Files (x86)/Common Files/Microsoft Shared/DW/DWTRIG20.EXE",
+      "size": 39264,
+      "sha256": "72fc3fdced04ed8de4758a47d4ec124b6ec147da3841a61a1b411a158011eca5",
+      "archived": true
+    },
+    {
+      "path": "Program Files (x86)/Internet Explorer/MUI/0409/mscorier.dll",
+      "size": 158720,
+      "sha256": "78278d1fb06c8a956284f6f0b32648524fd0e9a273dfe635e9a08944df2972a5",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/NETFXSBS10.exe",
+      "size": 82944,
+      "sha256": "09d0b0ee0a4ec07cbc3e7dee3a74892885def3cc99e8a600e09dbdabfe31137a",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/SharedReg12.dll",
+      "size": 16896,
+      "sha256": "fb1bf68cdebd14e619ea87761fe28d6b2d2bcb7d261fd4253fdf8249724f8bc1",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/sbscmp10.dll",
+      "size": 16896,
+      "sha256": "fb1bf68cdebd14e619ea87761fe28d6b2d2bcb7d261fd4253fdf8249724f8bc1",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/sbscmp20_mscorwks.dll",
+      "size": 16896,
+      "sha256": "fb1bf68cdebd14e619ea87761fe28d6b2d2bcb7d261fd4253fdf8249724f8bc1",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/sbscmp20_perfcounter.dll",
+      "size": 16896,
+      "sha256": "fb1bf68cdebd14e619ea87761fe28d6b2d2bcb7d261fd4253fdf8249724f8bc1",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v1.0.3705/mscormmc.dll",
+      "size": 97280,
+      "sha256": "e0a782c04c2848fb6cef0bc0e0425d5e91db4db9120ad777ecc6ff9d459fd780",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/1033/CvtResUI.dll",
+      "size": 13824,
+      "sha256": "c342830fc4c2a46bcd76f1a3dda99ba395f4a8af3fe6103a11c54f105639cfdd",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/1033/Vsavb7rtUI.dll",
+      "size": 218112,
+      "sha256": "35c05a744c9fcc5fe57812e9ad53482d1bc7080f9d9095c797fb87956bf4571e",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/1033/alinkui.dll",
+      "size": 28672,
+      "sha256": "a623befb85960cf64dbe23cd414a866dcd05363106a5c6447f4506c8f93e9538",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/1033/cscompui.dll",
+      "size": 145408,
+      "sha256": "0d29c3df31b003ffee041a96665ce6876a5beef33cf48f46325d1d8375ec9eaa",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/1033/vbc7ui.dll",
+      "size": 193016,
+      "sha256": "21d0196476aed4990871a2cbcd536effd176cd4696474800df786cc7d43ecb93",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/ASP.NETWebAdminFiles/App_Code/WebAdminPage.cs",
+      "size": 48637,
+      "sha256": "226d78982aa3177f187070dde9ff55aae98494594eba2c74ca35bb46fd07a5c5",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/Accessibility.dll",
+      "size": 10752,
+      "sha256": "172a9ebe100423f5e99e53044920935fe47e4b3188c834431f4eeca60cdb7ea0",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/AdoNetDiag.dll",
+      "size": 147968,
+      "sha256": "99e285a808488d2efc367b13cf4186c1ceb026cbc618e39854d1d2e3de9d13eb",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/AppLaunch.exe",
+      "size": 59392,
+      "sha256": "a534fb1df84597fe9d25542e18c03da77780f7eff7fa6e74dc8612da0954f0cc",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/AspNetMMCExt.dll",
+      "size": 507904,
+      "sha256": "7e9493704399fb5a5ae98aee69dd7440e36d4818e0e1a5bf5c5030556827dda4",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/Aspnet_perf.dll",
+      "size": 33288,
+      "sha256": "83d06fe6623d1732d9fe84f8d3216afc1b9aeafc9a839acbc98515c3c750afab",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/CLR.mof",
+      "size": 14623,
+      "sha256": "077af82349646532c2ef6f610679f4e7ada8230800de2f96b38008d58d2be595",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/CLR.mof.uninstall",
+      "size": 741,
+      "sha256": "05092d925874e9c28c4f8fd5caecc1a52958eaac3ccd0f91b3a17b3857dea3e0",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/CONFIG/Browsers/mozilla.browser",
+      "size": 13262,
+      "sha256": "da0a25045f7b1a0a35f9212a924e56e65f1062e48a227c15d0ff5ae79e85d92a",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/CONFIG/machine.config",
+      "size": 20057,
+      "sha256": "c14c2b2c1738c9cc19fdb149bfe4146a0ed0c4a2a46f98316906c5273ebda2d1",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/CONFIG/machine.config.comments",
+      "size": 42852,
+      "sha256": "7f55476be1f2c12ce88980dfa3c6a801a7be72ff65b5393beee8d1fd9655dbf5",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/CONFIG/machine.config.default",
+      "size": 20057,
+      "sha256": "c14c2b2c1738c9cc19fdb149bfe4146a0ed0c4a2a46f98316906c5273ebda2d1",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/CONFIG/web.config",
+      "size": 30023,
+      "sha256": "4de89a0167ac0498c9e5fabf6613cea1afa1f08aa7cff88c5519c67d5a43973e",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/CONFIG/web.config.comments",
+      "size": 57471,
+      "sha256": "3ef7f4ce3466ddc017bd7abb3d4a76d15e025f68cfb5d6f492dff01da0cc8ec0",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/CONFIG/web.config.default",
+      "size": 30023,
+      "sha256": "4de89a0167ac0498c9e5fabf6613cea1afa1f08aa7cff88c5519c67d5a43973e",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/CORPerfMonExt.dll",
+      "size": 101896,
+      "sha256": "60f329dd5fa2e69c3808e31ee1dce224db171390ef8fe888d6b4ea30dce6a136",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/CasPol.exe",
+      "size": 106496,
+      "sha256": "b57de944e9feeb9fd23d63dca785011efba44e53efd8de7b052072df8470e628",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/Culture.dll",
+      "size": 27136,
+      "sha256": "1b8195c5f6ae1cad3f2a3972693fc41b7487d475669ad8c6180fc2c00791735e",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/CustomMarshalers.dll",
+      "size": 69120,
+      "sha256": "16d28b0c601b6ca80ff92b0889030caa90a3428661309278cc33669beacebd1b",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/EventLogMessages.dll",
+      "size": 798224,
+      "sha256": "e03e843c89b656e53c691493dce44a40461d04801ad5aece896fca3a6faa4d7d",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/IEExec.exe",
+      "size": 9728,
+      "sha256": "04ae723cd365311271f51442b3a5a1f7c4195a6d51b2647863d5532d74d512ec",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/IEExecRemote.dll",
+      "size": 8192,
+      "sha256": "9ce170df2b84c88161144647c05d5921ca3528a625add5153247aa99822a36e7",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/IEHost.dll",
+      "size": 77824,
+      "sha256": "269b8f5851811b5505e40a021632da32b1ad8488a58c16b4374efcfa11a88c42",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/IIEHost.dll",
+      "size": 6656,
+      "sha256": "e30e2c84bc10d06eb3bf1c9d62401ff6e73d1e32c40376f5d6ebcc463426a259",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/ISymWrapper.dll",
+      "size": 72192,
+      "sha256": "5b9e0e86bdcb2bd4aa209b6d4092b9712f5c9ea0dbf9ab4c1f3f5359cbd65442",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/InstallCommon.sql",
+      "size": 24603,
+      "sha256": "47ab5f8cd157cbe69f64356ec83e6bd15ba7d927220fd6b08b7af7baa50c60b3",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/InstallUtil.exe",
+      "size": 28672,
+      "sha256": "d105e59e700ad8c62134a24d7919b37f410024fefc2671b008ac8ad6bd7beb57",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/InstallUtilLib.dll",
+      "size": 65032,
+      "sha256": "91f62c560a5792048bf018f1f33ccf642d37a298ce4a98a10450e27ea3207c1d",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/MSBuild.exe",
+      "size": 69632,
+      "sha256": "1436776545307c4b91c8f2213b115aa033f4345b7e138f42df11c9bde9ba6633",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/MSBuild/Microsoft.Build.Commontypes.xsd",
+      "size": 99752,
+      "sha256": "18c1ebf89ce9d2156998addf35138948c0f39e9d767f2e3e49aafcc7e821eb93",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/MUI/0409/mscorsecr.dll",
+      "size": 31744,
+      "sha256": "51a7fb875bc27dfcbd570eaa066cfc0c8f962775bccf06b1b4674119b2924af2",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft.Build.Engine.dll",
+      "size": 348160,
+      "sha256": "d2bd76536a1b102c27d6f47f9f9d3e01957e07f927616445324dbd5905747d5e",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft.Build.Framework.dll",
+      "size": 36864,
+      "sha256": "5fc89600615f6d2f84cb54e6abac6217f0aebd480c86e6fbf67b03f12d13a084",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft.Build.Tasks.dll",
+      "size": 655360,
+      "sha256": "904b7233cf3938cf74db1049e3d91a2bda12a84da263c413f6da4566ce015bf2",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft.Build.Utilities.dll",
+      "size": 77824,
+      "sha256": "d6102dd0d8b526396f49692c7cb940ce043ead6571287d15371ca907e849a798",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft.CSharp.targets",
+      "size": 9381,
+      "sha256": "eb981a7c457a167e1642ab41eba804a66cc7b99dcb587da18c13af7be04b4ce9",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft.Common.Tasks",
+      "size": 6838,
+      "sha256": "80df684f96db070fd677baac04e0ac6344c8bcb10e1245090f4429afca08b84a",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft.Common.targets",
+      "size": 178661,
+      "sha256": "36f09a99927945889c2ab6d8fa100fbf343cad0756d426d95372c5cf37c19680",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft.JScript.dll",
+      "size": 749568,
+      "sha256": "d41841dfc8e8a435d488c3e3b8374c9acd3e267d6c4f136d30886c580af7b207",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft.JScript.tlb",
+      "size": 53248,
+      "sha256": "c52a6526afa5b480ba89c7860d93a7ccdc97aec3e2475ff9ae34cdd0e7670c47",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft.VisualBasic.Compatibility.Data.dll",
+      "size": 110592,
+      "sha256": "715d68a53288e72c14bdd1b9094c5a04cf97ad936dc88d7c0f97e6509ca13044",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft.VisualBasic.Compatibility.dll",
+      "size": 372736,
+      "sha256": "35b94522a7d2f8f87f494de5232c03a63ea8733ee28b7add3cf1e01e1a4f80cf",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft.VisualBasic.Vsa.dll",
+      "size": 28672,
+      "sha256": "154273fdeaf33ae2469e0b46f27265983c657615d9f42fa20dcaec9c010f50f2",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft.VisualBasic.dll",
+      "size": 671744,
+      "sha256": "0553af06adf1dbe8bbb07d611e24fd0eb250809d1bd8d20fbd18c36744ad43a9",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft.VisualBasic.targets",
+      "size": 10031,
+      "sha256": "9217b02a4de99ca1d4c2f713804dcd590ea9c8f18597c1ac46c594888224af64",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft.VisualC.Dll",
+      "size": 5632,
+      "sha256": "2523dfad57b346c7caa0173f673f143b31feb3b076d1689f47d66a80436c2d28",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft.Vsa.Vb.CodeDOMProcessor.dll",
+      "size": 12800,
+      "sha256": "07f4b4f581ee1d9cbf7ebddb037378027448619a862b2f162ea82993a2cf31dc",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft.Vsa.Vb.CodeDOMProcessor.tlb",
+      "size": 6144,
+      "sha256": "05eed28c8657231260bb57b389cd2e24510e31958f289eec95666d27f3987d8a",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft.Vsa.dll",
+      "size": 32768,
+      "sha256": "1ff7e4c195ac0a95f1df46ace62cec8dded53b2cad0cb8901abede7337903d19",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft.Vsa.tlb",
+      "size": 23040,
+      "sha256": "947087dfb88970216981f4a1ebda2daa3688df61de5d14077a96eed5fd412c34",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft_VsaVb.dll",
+      "size": 7168,
+      "sha256": "b111add9cccc9ecf227b8e3ade6d31c1ef9608ff47b7fc8282cd88164302ebdc",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/MmcAspExt.dll",
+      "size": 97792,
+      "sha256": "52bf2e7d9193c146c6c2916d20f5dbab91c226358343e541699b0204d6698d67",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/PerfCounter.dll",
+      "size": 89096,
+      "sha256": "1b275d95c0eae61ab72503da43b5c7a74131043c7f130f937d7b0e765fe70503",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/RedistList/FrameworkList.xml",
+      "size": 11143,
+      "sha256": "13ecb7ede3614c2dbb48cf815d319ccedb5e28f4a08438f5b8fef91894bbd480",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/SOS.dll",
+      "size": 392696,
+      "sha256": "075fe07e9a09263a84574aabe9c17d5be7bbb98c1268ed96e5fb16e557911093",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/ShFusRes.dll",
+      "size": 95232,
+      "sha256": "95e5e66ef46059780765d3414ad0dbd7a210a83b7b54ac0652b14f081b400476",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.Configuration.Install.dll",
+      "size": 81920,
+      "sha256": "05ca499bfa9dfd8107a00e551f56e462ab9f234a63123eb702396bd837e6e5af",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.Data.OracleClient.dll",
+      "size": 483840,
+      "sha256": "f569e42c3cc12eee41191f69cd0e09480e4d520248ab0bd4ebb6c7780a21e860",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.Data.SqlXml.dll",
+      "size": 741376,
+      "sha256": "89b1fe099346596e9c62088d43d033fcfe19ce354896aae705ed99665bbfc517",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.Data.dll",
+      "size": 3036160,
+      "sha256": "670aeac04b435f6642a1bc10cb98de3d3f678c9158f64c356f619a598c45763d",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.Deployment.dll",
+      "size": 933888,
+      "sha256": "86f9ad8fd7090f9a2fd54b6bb736a3a05b999a55b04883439ddc5a0bf14576b4",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.Design.dll",
+      "size": 5070848,
+      "sha256": "eb4ab9444debf9af5c23673bde4fef35f0fa8b2d0b92a54c248d9347c3cce1e4",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.DirectoryServices.Protocols.dll",
+      "size": 188416,
+      "sha256": "96debaf72b4b6388199225c6bd4da0932778a252c29e7f7a9aac7edbf5af67f0",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.DirectoryServices.dll",
+      "size": 401408,
+      "sha256": "fa88b014641f48bda3f26ed8f4582e98d0b41ecc1bbba9fe570febb4ffb3c19b",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.Drawing.Design.dll",
+      "size": 81920,
+      "sha256": "3d5710d1136d2cd9e826ea1f542de06eab00ddc8c49ffdbad2d78470d94c9bf6",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.Drawing.dll",
+      "size": 630784,
+      "sha256": "de21cadbe7938a386555dd3b402eeb97b3198ff4311d2de12da601c984451d1d",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.Drawing.tlb",
+      "size": 8192,
+      "sha256": "f98de658cb2685342676ec11e4ccabe7d28009a8825a1e32921d3f26b3b75be7",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.EnterpriseServices.Thunk.dll",
+      "size": 57392,
+      "sha256": "ebe0c96247bb39926e9ba3a92aaf777795a477f4eedaba58e5b14c059c6bf80f",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.EnterpriseServices.Wrapper.dll",
+      "size": 113664,
+      "sha256": "9eea4bb980ad051725eea196584b48737d1241768b8cc5c8b95cade5cbab08a1",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.EnterpriseServices.dll",
+      "size": 258048,
+      "sha256": "007ec94c1f280eb98d0af83f1ef06651d5740b9fb3373f11d810bc409af3e83b",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.EnterpriseServices.tlb",
+      "size": 40960,
+      "sha256": "c0ab15c6765d044397af1f8a031a9a73293a209bd2a1291b6de2b74b988fcf50",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.Management.dll",
+      "size": 372736,
+      "sha256": "9851c7ab4fa6ff9a0f6603aea734f3592d8cadd0d1e5c1b0cd4a623d2b2fb864",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.Messaging.dll",
+      "size": 258048,
+      "sha256": "b0be15554ead327706be693329f3a99206a180fb678eadf4d9a1c4a748546e2d",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.Runtime.Remoting.dll",
+      "size": 299008,
+      "sha256": "e747a2fbc56606bdb55098ad91c660e297427f71f19273b4211631807c4da56b",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.Runtime.Serialization.Formatters.Soap.dll",
+      "size": 131072,
+      "sha256": "b69e9019c0e6e18429475a55c726e43d69b6b8c98878414e5181326907f6a633",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.Security.dll",
+      "size": 258048,
+      "sha256": "2d3b5875f770d79b5227d9bf6f0c645728663fad119f03a2bf602d525194db4f",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.ServiceProcess.dll",
+      "size": 114688,
+      "sha256": "00b829e36e413805ee586305eb6152bde02293cf6030290941234c1cc96f91e1",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.Transactions.dll",
+      "size": 261120,
+      "sha256": "785d05d328e2086a5de28c8148b55ef9d8862e3ffd7d2f4fae14ee3407e84484",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.Web.Mobile.dll",
+      "size": 884736,
+      "sha256": "515914f21fbd065d9e1fec84fd06cc04824d88df1f3d186fc93e62271bdc8a17",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.Web.RegularExpressions.dll",
+      "size": 90112,
+      "sha256": "240f4b22c7ea6eb2baeef526155b2e5d80125b84591599919ebd9ef636935003",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.Web.Services.dll",
+      "size": 839680,
+      "sha256": "e62726071cfdac11f0175710ae0c8d7f0cbc311890597c45ed718b31f4fee6e5",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.Web.dll",
+      "size": 5431296,
+      "sha256": "3a4cc2002ae1266833662e1b0872c01c12e69ec1d6b1beed3afce97edb151ad4",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.Web.tlb",
+      "size": 6656,
+      "sha256": "6f87bb6a370507355d8046a87cd63e56aa451c0be9b5ef9caa98349145bd7361",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.Windows.Forms.dll",
+      "size": 5013504,
+      "sha256": "f7da0d936ced433ef2b675682244fe37e7c34de5b24a6adfe0875437dc594187",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.Windows.Forms.tlb",
+      "size": 94208,
+      "sha256": "15c6675f4e385a4f3058e25fdf23368748d759c7f150570f692cbbd319da35e8",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.XML.dll",
+      "size": 2068480,
+      "sha256": "bd1ac99c5c04d78c5d2563caaa8da0d9a0e6603bc2034a8d24c219cab827bdee",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.configuration.dll",
+      "size": 425984,
+      "sha256": "0b60daee1888e21a14eed2dc156127dadcd07added4468db1e22d12a35eacaf7",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.dll",
+      "size": 3076096,
+      "sha256": "b9a66be488e0906e146d04b670785c7824bd5b6490a4023b193f4866b94a885d",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/System.tlb",
+      "size": 81920,
+      "sha256": "5926229f8e97d7e8121f452eb0ecceef5314c4e77613bd7e8e7c3400167a4172",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/TLBREF.DLL",
+      "size": 81400,
+      "sha256": "6344fbded29dab981639fbc97d3346b531979f097996eb78b495a40ef88afc86",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/VsaVb7rt.dll",
+      "size": 1344000,
+      "sha256": "79cec9eecc8d8e9c2decd959055a5d0fd390c7ec13faadd936028a3874e7c0b4",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/WMINet_Utils.dll",
+      "size": 37896,
+      "sha256": "f9d6b34f78624f3bdb3efffa427ff1db21fcbf5953fe7c1b9ec0af4a2c06f0ed",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/_DataOracleClientPerfCounters_shared12_neutral.ini",
+      "size": 98498,
+      "sha256": "a75c85caf3a66e3eb12d9f9d187f756e3112b7f03ad9c0ec4f82dfb84524bac5",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/_DataPerfCounters.ini",
+      "size": 53968,
+      "sha256": "173e4447b91f13de2d26a32e223e32d2b5d06e1eac19cc93fa489f0574690e44",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/_Networkingperfcounters.ini",
+      "size": 56786,
+      "sha256": "8f1fb54a16e164104387a70d47861d77a38e8f2835ebbd114a8e9350036115c2",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/_dataperfcounters_shared12_neutral.ini",
+      "size": 98642,
+      "sha256": "200609eda10ce50e5051875da52c15f74becfadb1ca723bf5844910b8accbb6f",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/alink.dll",
+      "size": 99320,
+      "sha256": "e0e5357dda844a2cab1c4923cfd87a4f37e3b93d6e73822f5170565771af4512",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/aspnet.mof",
+      "size": 53674,
+      "sha256": "21844e1085f66790d12ecba8068f1b97a113cbb1fd986f460267212fd8ab734d",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/aspnet_compiler.exe",
+      "size": 36864,
+      "sha256": "1b6994d1adeef9727ed1fba0a52cadd2c6eb390b4d6a5c1aed0035919ea39f0e",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/aspnet_filter.dll",
+      "size": 22024,
+      "sha256": "bfc7e713c41821e1fc17db69aaf910f7aea473c39aa3babdfb130e9bdaf1f763",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/aspnet_isapi.dll",
+      "size": 17928,
+      "sha256": "326747d2d49e33ba57d6faa1d790f94bfb7d396d458e4ef2e40b340255fcec59",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/aspnet_perf.h",
+      "size": 6665,
+      "sha256": "e77f66648931154995c958b2042b168200e177e868c17c88def483ef55833fa2",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/aspnet_perf.ini",
+      "size": 897676,
+      "sha256": "62b5661bc0d151984198e8a808f3eea581719f023dcc1ca144fa78a65c8f4d2d",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/aspnet_perf2.ini",
+      "size": 895678,
+      "sha256": "ba523fe0f3a787ac8e3b45109dcfea23c7479d6f06220b3890b11ca054f77899",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/aspnet_rc.dll",
+      "size": 84480,
+      "sha256": "898cc192138330cabd6d560649149721e40dc5a4e5c3688418798308a3704812",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/aspnet_regbrowsers.exe",
+      "size": 24576,
+      "sha256": "0f119ed4b88338c3d44c6cf98457dcdaee3d201e606f616e50e83b2f6cde41d9",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/aspnet_regiis.exe",
+      "size": 32776,
+      "sha256": "e8f53d724ed01e47cd2c3dadc9a7a8ed246fc3146d80aaafb5ff30313064abed",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/aspnet_regsql.exe",
+      "size": 106496,
+      "sha256": "d9e9b8594aa26c51c0338d6c01c9a81ba688cd18912db5b278ee18f965bf9b1f",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/aspnet_state.exe",
+      "size": 33800,
+      "sha256": "d9f5a700bdc670cd59bfcbfc45f7f90d63f46b9b86aa129b8a18c0066f2a07a0",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/aspnet_state_perf.h",
+      "size": 318,
+      "sha256": "e349efe6d263739465d7934ba70ca10350c177fb538b7d1460694be8c854a14c",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/aspnet_state_perf.ini",
+      "size": 42966,
+      "sha256": "7968d6cef7a23f10d30649026bc39b081042f91716406d44a59d6109f5d4a8e9",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/aspnet_wp.exe",
+      "size": 33280,
+      "sha256": "639afb0311b9dadfd392b71c00b52189b925f85e3a8bd972eda6b262545e32f4",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/corperfmonsymbols.ini",
+      "size": 1507910,
+      "sha256": "048b9c4c81b534611eac9edae18e08e46506d4cce7d7c9ac716f93a55ded3b62",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/csc.exe",
+      "size": 80376,
+      "sha256": "4527c48d7d18d8f539806a51787f031e112977e7330de1fccb0d004b464c354e",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/cscomp.dll",
+      "size": 1162744,
+      "sha256": "5ee917de1a4188db0ba67999f05ef319bbc39f1b28ca562c658f7821302faabd",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/cscompmgd.dll",
+      "size": 13312,
+      "sha256": "a7ae7b00c56d7b930ed73a77d2bbd031caa9d6de28016036ef73fe982e4229c3",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/cvtres.exe",
+      "size": 35320,
+      "sha256": "2097ef59a5a724f7b56c98137bff1d5bff5dfbba73c82393a30a1539d03485e2",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/dfdll.dll",
+      "size": 66552,
+      "sha256": "0329254dc31db4e6a0d1e3245af231089a864edf379d949de58a8e93ea945a45",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/dfsvc.exe",
+      "size": 5120,
+      "sha256": "c07bc8e6d2c80e18c98fca41752969f2faa7857baf510bfae6b48a80356c8ae3",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/diasymreader.dll",
+      "size": 572936,
+      "sha256": "d4d83a4beb2b3a1383d213fb4f5f0d2ba90fa14e79cf0bfcf7770b582e52162c",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/ilasm.exe",
+      "size": 230904,
+      "sha256": "15b6366588bc0de3bb459b775cce08278702e678ca35beee5290e878f6d2782e",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/jsc.exe",
+      "size": 40960,
+      "sha256": "7a1f224d4be9e1e4031848f9c1986af435abc718148fea2f9ed1bdedcc1f2a03",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/mscordacwks.dll",
+      "size": 822280,
+      "sha256": "29b51c7421ee1627ed6f06069b7d89fec66d899a9cc9612af23ec26da025f8af",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/mscordbc.dll",
+      "size": 83456,
+      "sha256": "ebe46427d02cbb78a8679365f739eee89eb8c9797e63823154c3cf1a17c73497",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/mscordbi.dll",
+      "size": 308224,
+      "sha256": "4d4e4b43fbee8a2b14f95a9eba230051b1cb8f7828902d6a4b89d7723197b15a",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/mscoree.tlb",
+      "size": 36864,
+      "sha256": "c85f631f265f74ccc3cf2c8db49f297c325488bf7dd188e72202d8907963c765",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/mscorie.dll",
+      "size": 47104,
+      "sha256": "367010332005e3d8350165223b0c982e99a67f67584748434c349cfcc76927aa",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/mscorjit.dll",
+      "size": 348672,
+      "sha256": "4f23541621c34817d0fa3ffa5b8a28ea3a9f49a4c684da6562eeb48614fd7fa5",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/mscorld.dll",
+      "size": 94208,
+      "sha256": "162703a49a50d58a1de44116416609093d2a56a52ca64a4f268a97e5904c2a30",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/mscorlib.dll",
+      "size": 4444160,
+      "sha256": "63761a84afc9404977e3bf3fc5df6afd2cf5da812dcaeb91fa98c52c7f249a3c",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/mscorlib.tlb",
+      "size": 524288,
+      "sha256": "bf1d99b13b0404490deaf56cbc45088f40e96870954a7c47fcff3b5a4ac5aa15",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/mscorpe.dll",
+      "size": 114688,
+      "sha256": "90009a0f83a5ec097488a2204414c68a739d473349eaf30fb20fc809ddab936d",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/mscorrc.dll",
+      "size": 340992,
+      "sha256": "e0aafb2d5d04b3c31ef975a7d21eac57948f5ba5224d23bc6ef1db459f5e7cc6",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/mscorsec.dll",
+      "size": 77312,
+      "sha256": "45e5432f54ea87fa163aa4872d6c0cd47041a61818093876937b7107df7db3f5",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/mscorsn.dll",
+      "size": 18944,
+      "sha256": "d36c8b4ad6c0d36363a01cc1fcab8fb2aefa783af77ca1be2934e7d3a93863fd",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/mscorsvc.dll",
+      "size": 242688,
+      "sha256": "e99bcbc82f56ba53a0ef6942c4a48af72ec1c4d3a36f1e7e928a46c4e0aa9faa",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/mscorsvw.exe",
+      "size": 70144,
+      "sha256": "f412b31340b11418698f263a60c78cb086f3d973eda0c15df12331971eb3c9dc",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/mscortim.dll",
+      "size": 19456,
+      "sha256": "d691be736cd95d5f642d1e6fce2def0d40b561ad9f0b39054ac3a5a5c163d9e1",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/mscorwks.dll",
+      "size": 5814784,
+      "sha256": "7fefa71c9fc3acf3f40176399eb8ae4a784286a9b96d007d13b51ce59075277a",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/normalization.dll",
+      "size": 24584,
+      "sha256": "64e5dc77f509189f2ff15702e656b2660586ee0936baf51d6089d9b0c8f159f7",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/normidna.nlp",
+      "size": 59342,
+      "sha256": "157105a9940b35dc8f1800e0a14765b91513cd5906508fc7ec53a2b8d5038ee9",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/normnfc.nlp",
+      "size": 45794,
+      "sha256": "e5e4b8d04db49a76e582c57bb7dda3cf2b36546a1d75448d9fab55cb4f2d6426",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/normnfd.nlp",
+      "size": 39284,
+      "sha256": "fbd176369fe3840184def3ee0d376781a42dcd897a8fb17a718d75c36d55c9e6",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/normnfkc.nlp",
+      "size": 66384,
+      "sha256": "1b1c7531743f910a1ee6f5f8da2e6fe149fc7ac4aaa9d93f679aff7dd79d0bdf",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/normnfkd.nlp",
+      "size": 60294,
+      "sha256": "5b7b87b5443ea1235860b7ad4b28571da3be6f8571249cf0dd1927e83ae9592d",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/peverify.dll",
+      "size": 144896,
+      "sha256": "ac03eccae487168fc24a5a36471afe04acc395f1ed2d038669a84ed367bd2be9",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/regtlibv12.exe",
+      "size": 61952,
+      "sha256": "732642ab937b39ff0b31291c19c647c29da45b4c5390dae62f0050e81ef4ca00",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/sbscmp20_mscorlib.dll",
+      "size": 16896,
+      "sha256": "fb1bf68cdebd14e619ea87761fe28d6b2d2bcb7d261fd4253fdf8249724f8bc1",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/shfusion.dll",
+      "size": 119296,
+      "sha256": "64093ecabd0b3fc122e2fc67926ab733cf397c91f1e816c26fb5672fd1576307",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/sysglobl.dll",
+      "size": 110592,
+      "sha256": "410669b87152097f43dbbf1eda01a1683df3eacf03e18a6697578ec9f6596d34",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/vbc.exe",
+      "size": 1172472,
+      "sha256": "2133950d0e26dea4a0583d86bfb384a1cc31d2696ae1dcb56b39e2217d1df566",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/vsavb7.olb",
+      "size": 4096,
+      "sha256": "373de4e8674009fda96e644a2ba796ffea8e29492474ffaa26386e10238558c6",
+      "archived": true
+    },
+    {
+      "path": "windows/Microsoft.NET/Framework/v2.0.50727/webengine.dll",
+      "size": 434688,
+      "sha256": "ac61f6d38e8c73c0518d49f2acdf8278e15a30faeb781e833122044c72d8bd2d",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_32/CustomMarshalers/2.0.0.0__b03f5f7f11d50a3a/CustomMarshalers.dll",
+      "size": 69120,
+      "sha256": "16d28b0c601b6ca80ff92b0889030caa90a3428661309278cc33669beacebd1b",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_32/ISymWrapper/2.0.0.0__b03f5f7f11d50a3a/ISymWrapper.dll",
+      "size": 72192,
+      "sha256": "5b9e0e86bdcb2bd4aa209b6d4092b9712f5c9ea0dbf9ab4c1f3f5359cbd65442",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_32/System.Data.OracleClient/2.0.0.0__b77a5c561934e089/System.Data.OracleClient.dll",
+      "size": 483840,
+      "sha256": "f569e42c3cc12eee41191f69cd0e09480e4d520248ab0bd4ebb6c7780a21e860",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_32/System.Data/2.0.0.0__b77a5c561934e089/System.Data.dll",
+      "size": 3036160,
+      "sha256": "670aeac04b435f6642a1bc10cb98de3d3f678c9158f64c356f619a598c45763d",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_32/System.EnterpriseServices/2.0.0.0__b03f5f7f11d50a3a/System.EnterpriseServices.Wrapper.dll",
+      "size": 113664,
+      "sha256": "9eea4bb980ad051725eea196584b48737d1241768b8cc5c8b95cade5cbab08a1",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_32/System.EnterpriseServices/2.0.0.0__b03f5f7f11d50a3a/System.EnterpriseServices.dll",
+      "size": 258048,
+      "sha256": "007ec94c1f280eb98d0af83f1ef06651d5740b9fb3373f11d810bc409af3e83b",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_32/System.Transactions/2.0.0.0__b77a5c561934e089/System.Transactions.dll",
+      "size": 261120,
+      "sha256": "785d05d328e2086a5de28c8148b55ef9d8862e3ffd7d2f4fae14ee3407e84484",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_32/System.Web/2.0.0.0__b03f5f7f11d50a3a/System.Web.dll",
+      "size": 5431296,
+      "sha256": "3a4cc2002ae1266833662e1b0872c01c12e69ec1d6b1beed3afce97edb151ad4",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_32/mscorlib/2.0.0.0__b77a5c561934e089/mscorlib.dll",
+      "size": 4444160,
+      "sha256": "63761a84afc9404977e3bf3fc5df6afd2cf5da812dcaeb91fa98c52c7f249a3c",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_32/mscorlib/2.0.0.0__b77a5c561934e089/normidna.nlp",
+      "size": 59342,
+      "sha256": "157105a9940b35dc8f1800e0a14765b91513cd5906508fc7ec53a2b8d5038ee9",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_32/mscorlib/2.0.0.0__b77a5c561934e089/normnfc.nlp",
+      "size": 45794,
+      "sha256": "e5e4b8d04db49a76e582c57bb7dda3cf2b36546a1d75448d9fab55cb4f2d6426",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_32/mscorlib/2.0.0.0__b77a5c561934e089/normnfd.nlp",
+      "size": 39284,
+      "sha256": "fbd176369fe3840184def3ee0d376781a42dcd897a8fb17a718d75c36d55c9e6",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_32/mscorlib/2.0.0.0__b77a5c561934e089/normnfkc.nlp",
+      "size": 66384,
+      "sha256": "1b1c7531743f910a1ee6f5f8da2e6fe149fc7ac4aaa9d93f679aff7dd79d0bdf",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_32/mscorlib/2.0.0.0__b77a5c561934e089/normnfkd.nlp",
+      "size": 60294,
+      "sha256": "5b7b87b5443ea1235860b7ad4b28571da3be6f8571249cf0dd1927e83ae9592d",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/Accessibility/2.0.0.0__b03f5f7f11d50a3a/Accessibility.dll",
+      "size": 10752,
+      "sha256": "172a9ebe100423f5e99e53044920935fe47e4b3188c834431f4eeca60cdb7ea0",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/AspNetMMCExt/2.0.0.0__b03f5f7f11d50a3a/AspNetMMCExt.dll",
+      "size": 507904,
+      "sha256": "7e9493704399fb5a5ae98aee69dd7440e36d4818e0e1a5bf5c5030556827dda4",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/IEExecRemote/2.0.0.0__b03f5f7f11d50a3a/IEExecRemote.dll",
+      "size": 8192,
+      "sha256": "9ce170df2b84c88161144647c05d5921ca3528a625add5153247aa99822a36e7",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/IEHost/2.0.0.0__b03f5f7f11d50a3a/IEHost.dll",
+      "size": 77824,
+      "sha256": "269b8f5851811b5505e40a021632da32b1ad8488a58c16b4374efcfa11a88c42",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/IIEHost/2.0.0.0__b03f5f7f11d50a3a/IIEHost.dll",
+      "size": 6656,
+      "sha256": "e30e2c84bc10d06eb3bf1c9d62401ff6e73d1e32c40376f5d6ebcc463426a259",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/Microsoft.Build.Engine/2.0.0.0__b03f5f7f11d50a3a/Microsoft.Build.Engine.dll",
+      "size": 348160,
+      "sha256": "d2bd76536a1b102c27d6f47f9f9d3e01957e07f927616445324dbd5905747d5e",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/Microsoft.Build.Framework/2.0.0.0__b03f5f7f11d50a3a/Microsoft.Build.Framework.dll",
+      "size": 36864,
+      "sha256": "5fc89600615f6d2f84cb54e6abac6217f0aebd480c86e6fbf67b03f12d13a084",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/Microsoft.Build.Tasks/2.0.0.0__b03f5f7f11d50a3a/Microsoft.Build.Tasks.dll",
+      "size": 655360,
+      "sha256": "904b7233cf3938cf74db1049e3d91a2bda12a84da263c413f6da4566ce015bf2",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/Microsoft.Build.Utilities/2.0.0.0__b03f5f7f11d50a3a/Microsoft.Build.Utilities.dll",
+      "size": 77824,
+      "sha256": "d6102dd0d8b526396f49692c7cb940ce043ead6571287d15371ca907e849a798",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/Microsoft.JScript/8.0.0.0__b03f5f7f11d50a3a/Microsoft.JScript.dll",
+      "size": 749568,
+      "sha256": "d41841dfc8e8a435d488c3e3b8374c9acd3e267d6c4f136d30886c580af7b207",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/Microsoft.VisualBasic.Compatibility.Data/8.0.0.0__b03f5f7f11d50a3a/Microsoft.VisualBasic.Compatibility.Data.dll",
+      "size": 110592,
+      "sha256": "715d68a53288e72c14bdd1b9094c5a04cf97ad936dc88d7c0f97e6509ca13044",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/Microsoft.VisualBasic.Compatibility/8.0.0.0__b03f5f7f11d50a3a/Microsoft.VisualBasic.Compatibility.dll",
+      "size": 372736,
+      "sha256": "35b94522a7d2f8f87f494de5232c03a63ea8733ee28b7add3cf1e01e1a4f80cf",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/Microsoft.VisualBasic.Vsa/8.0.0.0__b03f5f7f11d50a3a/Microsoft.VisualBasic.Vsa.dll",
+      "size": 28672,
+      "sha256": "154273fdeaf33ae2469e0b46f27265983c657615d9f42fa20dcaec9c010f50f2",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/Microsoft.VisualBasic/8.0.0.0__b03f5f7f11d50a3a/Microsoft.VisualBasic.dll",
+      "size": 671744,
+      "sha256": "0553af06adf1dbe8bbb07d611e24fd0eb250809d1bd8d20fbd18c36744ad43a9",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/Microsoft.VisualC/8.0.0.0__b03f5f7f11d50a3a/Microsoft.VisualC.Dll",
+      "size": 5632,
+      "sha256": "2523dfad57b346c7caa0173f673f143b31feb3b076d1689f47d66a80436c2d28",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/Microsoft.Vsa.Vb.CodeDOMProcessor/8.0.0.0__b03f5f7f11d50a3a/Microsoft.Vsa.Vb.CodeDOMProcessor.dll",
+      "size": 12800,
+      "sha256": "07f4b4f581ee1d9cbf7ebddb037378027448619a862b2f162ea82993a2cf31dc",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/Microsoft.Vsa/8.0.0.0__b03f5f7f11d50a3a/Microsoft.Vsa.dll",
+      "size": 32768,
+      "sha256": "1ff7e4c195ac0a95f1df46ace62cec8dded53b2cad0cb8901abede7337903d19",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/Microsoft_VsaVb/8.0.0.0__b03f5f7f11d50a3a/Microsoft_VsaVb.dll",
+      "size": 7168,
+      "sha256": "b111add9cccc9ecf227b8e3ade6d31c1ef9608ff47b7fc8282cd88164302ebdc",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/System.Configuration.Install/2.0.0.0__b03f5f7f11d50a3a/System.Configuration.Install.dll",
+      "size": 81920,
+      "sha256": "05ca499bfa9dfd8107a00e551f56e462ab9f234a63123eb702396bd837e6e5af",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/System.Configuration/2.0.0.0__b03f5f7f11d50a3a/System.configuration.dll",
+      "size": 425984,
+      "sha256": "0b60daee1888e21a14eed2dc156127dadcd07added4468db1e22d12a35eacaf7",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/System.Data.SqlXml/2.0.0.0__b77a5c561934e089/System.Data.SqlXml.dll",
+      "size": 741376,
+      "sha256": "89b1fe099346596e9c62088d43d033fcfe19ce354896aae705ed99665bbfc517",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/System.Deployment/2.0.0.0__b03f5f7f11d50a3a/System.Deployment.dll",
+      "size": 933888,
+      "sha256": "86f9ad8fd7090f9a2fd54b6bb736a3a05b999a55b04883439ddc5a0bf14576b4",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/System.Design/2.0.0.0__b03f5f7f11d50a3a/System.Design.dll",
+      "size": 5070848,
+      "sha256": "eb4ab9444debf9af5c23673bde4fef35f0fa8b2d0b92a54c248d9347c3cce1e4",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/System.DirectoryServices.Protocols/2.0.0.0__b03f5f7f11d50a3a/System.DirectoryServices.Protocols.dll",
+      "size": 188416,
+      "sha256": "96debaf72b4b6388199225c6bd4da0932778a252c29e7f7a9aac7edbf5af67f0",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/System.DirectoryServices/2.0.0.0__b03f5f7f11d50a3a/System.DirectoryServices.dll",
+      "size": 401408,
+      "sha256": "fa88b014641f48bda3f26ed8f4582e98d0b41ecc1bbba9fe570febb4ffb3c19b",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/System.Drawing.Design/2.0.0.0__b03f5f7f11d50a3a/System.Drawing.Design.dll",
+      "size": 81920,
+      "sha256": "3d5710d1136d2cd9e826ea1f542de06eab00ddc8c49ffdbad2d78470d94c9bf6",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/System.Drawing/2.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll",
+      "size": 630784,
+      "sha256": "de21cadbe7938a386555dd3b402eeb97b3198ff4311d2de12da601c984451d1d",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/System.Management/2.0.0.0__b03f5f7f11d50a3a/System.Management.dll",
+      "size": 372736,
+      "sha256": "9851c7ab4fa6ff9a0f6603aea734f3592d8cadd0d1e5c1b0cd4a623d2b2fb864",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/System.Messaging/2.0.0.0__b03f5f7f11d50a3a/System.Messaging.dll",
+      "size": 258048,
+      "sha256": "b0be15554ead327706be693329f3a99206a180fb678eadf4d9a1c4a748546e2d",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/System.Runtime.Remoting/2.0.0.0__b77a5c561934e089/System.Runtime.Remoting.dll",
+      "size": 299008,
+      "sha256": "e747a2fbc56606bdb55098ad91c660e297427f71f19273b4211631807c4da56b",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/System.Runtime.Serialization.Formatters.Soap/2.0.0.0__b03f5f7f11d50a3a/System.Runtime.Serialization.Formatters.Soap.dll",
+      "size": 131072,
+      "sha256": "b69e9019c0e6e18429475a55c726e43d69b6b8c98878414e5181326907f6a633",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/System.Security/2.0.0.0__b03f5f7f11d50a3a/System.Security.dll",
+      "size": 258048,
+      "sha256": "2d3b5875f770d79b5227d9bf6f0c645728663fad119f03a2bf602d525194db4f",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/System.ServiceProcess/2.0.0.0__b03f5f7f11d50a3a/System.ServiceProcess.dll",
+      "size": 114688,
+      "sha256": "00b829e36e413805ee586305eb6152bde02293cf6030290941234c1cc96f91e1",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/System.Web.Mobile/2.0.0.0__b03f5f7f11d50a3a/System.Web.Mobile.dll",
+      "size": 884736,
+      "sha256": "515914f21fbd065d9e1fec84fd06cc04824d88df1f3d186fc93e62271bdc8a17",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/System.Web.RegularExpressions/2.0.0.0__b03f5f7f11d50a3a/System.Web.RegularExpressions.dll",
+      "size": 90112,
+      "sha256": "240f4b22c7ea6eb2baeef526155b2e5d80125b84591599919ebd9ef636935003",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/System.Web.Services/2.0.0.0__b03f5f7f11d50a3a/System.Web.Services.dll",
+      "size": 839680,
+      "sha256": "e62726071cfdac11f0175710ae0c8d7f0cbc311890597c45ed718b31f4fee6e5",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/System.Windows.Forms/2.0.0.0__b77a5c561934e089/System.Windows.Forms.dll",
+      "size": 5013504,
+      "sha256": "f7da0d936ced433ef2b675682244fe37e7c34de5b24a6adfe0875437dc594187",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/System.Xml/2.0.0.0__b77a5c561934e089/System.XML.dll",
+      "size": 2068480,
+      "sha256": "bd1ac99c5c04d78c5d2563caaa8da0d9a0e6603bc2034a8d24c219cab827bdee",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/System/2.0.0.0__b77a5c561934e089/System.dll",
+      "size": 3076096,
+      "sha256": "b9a66be488e0906e146d04b670785c7824bd5b6490a4023b193f4866b94a885d",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/cscompmgd/8.0.0.0__b03f5f7f11d50a3a/cscompmgd.dll",
+      "size": 13312,
+      "sha256": "a7ae7b00c56d7b930ed73a77d2bbd031caa9d6de28016036ef73fe982e4229c3",
+      "archived": true
+    },
+    {
+      "path": "windows/assembly/GAC_MSIL/sysglobl/2.0.0.0__b03f5f7f11d50a3a/sysglobl.dll",
+      "size": 110592,
+      "sha256": "410669b87152097f43dbbf1eda01a1683df3eacf03e18a6697578ec9f6596d34",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/dfshim.dll",
+      "size": 96760,
+      "sha256": "6f4c4b66ee65cd86a5739ce9e6cf1ea53981cfc7c62c12e84b0cb723e9a90646",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/mscoree.dll",
+      "size": 282112,
+      "sha256": "fea2c303476796713f6b64ea895ded0b0ef1728887b051920cb5e7ac176611e6",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/mscorier.dll",
+      "size": 158720,
+      "sha256": "78278d1fb06c8a956284f6f0b32648524fd0e9a273dfe635e9a08944df2972a5",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/mscories.dll",
+      "size": 84480,
+      "sha256": "84215e01d09a95153e6af3d4c2e8418786a871272a3215e94392790f6e427b38",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/msvcm80.dll",
+      "size": 479232,
+      "sha256": "8c843fd8c489ea9cab455c108768498e8b18c005172e8cf1a25ae6c2b9733e7d",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/msvcp80.dll",
+      "size": 558080,
+      "sha256": "dfcd308546a3702f2fb7b4e0458b4c61ad27f2d0b2efd152a47605199c7fb77a",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/msvcr80.dll",
+      "size": 635904,
+      "sha256": "d99a81be1798c0fd7348c057707f437c0e6fa9ea26a62d59c465b63c7b9e285b",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/mui/0409/mscorees.dll",
+      "size": 15360,
+      "sha256": "f38cb5a86ca1ac41ea41d4db680f0c39dd98f9917a09c6164a4b1ca88573b610",
+      "archived": true
+    },
+    {
+      "path": "windows/winsxs/Policies/x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_x-ww_77c24773/8.0.50727.1433.cat",
+      "size": 10995,
+      "sha256": "0526618453767c43f16240771676129562684488b751fc3c1631bb21748dd7b1",
+      "archived": true
+    },
+    {
+      "path": "windows/winsxs/Policies/x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_x-ww_77c24773/8.0.50727.1433.policy",
+      "size": 804,
+      "sha256": "861cf3834d664f22f99c14119bda5abbf4f70ba9eb8e83119ee70d264258164c",
+      "archived": true
+    },
+    {
+      "path": "windows/winsxs/manifests/x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.1433_x-ww_5cf844d2.cat",
+      "size": 10973,
+      "sha256": "c9ef7a7116f26dc9d064abfda1d66f879c2981a341eefacb52fa200b6ad11b48",
+      "archived": true
+    },
+    {
+      "path": "windows/winsxs/manifests/x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.1433_x-ww_5cf844d2.manifest",
+      "size": 1870,
+      "sha256": "e3d993dd3c98ac17be9e85b0e8a39616af0bb0e63152155b6c21241c31ad48a0",
+      "archived": true
+    },
+    {
+      "path": "windows/winsxs/x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.1433_x-ww_5cf844d2/msvcm80.dll",
+      "size": 479232,
+      "sha256": "8c843fd8c489ea9cab455c108768498e8b18c005172e8cf1a25ae6c2b9733e7d",
+      "archived": true
+    },
+    {
+      "path": "windows/winsxs/x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.1433_x-ww_5cf844d2/msvcp80.dll",
+      "size": 558080,
+      "sha256": "dfcd308546a3702f2fb7b4e0458b4c61ad27f2d0b2efd152a47605199c7fb77a",
+      "archived": true
+    },
+    {
+      "path": "windows/winsxs/x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.1433_x-ww_5cf844d2/msvcr80.dll",
+      "size": 635904,
+      "sha256": "d99a81be1798c0fd7348c057707f437c0e6fa9ea26a62d59c465b63c7b9e285b",
+      "archived": true
+    }
+  ],
+  "removed": [
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/eula.1025.txt",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/eula.1028.txt",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/eula.1029.txt",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/eula.1030.txt",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/eula.1031.txt",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/eula.1032.txt",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/eula.1033.txt",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/eula.1035.txt",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/eula.1036.txt",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/eula.1037.txt",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/eula.1038.txt",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/eula.1040.txt",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/eula.1041.txt",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/eula.1042.txt",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/eula.1043.txt",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/eula.1044.txt",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/eula.1045.txt",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/eula.1046.txt",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/eula.1049.txt",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/eula.1053.txt",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/eula.1055.txt",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/eula.2052.txt",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/eula.2070.txt",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/eula.3076.txt",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/eula.3082.txt",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/install.exe",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/install.ini",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/install.res.1025.dll",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/install.res.1028.dll",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/install.res.1029.dll",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/install.res.1030.dll",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/install.res.1031.dll",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/install.res.1032.dll",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/install.res.1033.dll",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/install.res.1035.dll",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/install.res.1036.dll",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/install.res.1037.dll",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/install.res.1038.dll",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/install.res.1040.dll",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/install.res.1041.dll",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/install.res.1042.dll",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/install.res.1043.dll",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/install.res.1044.dll",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/install.res.1045.dll",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/install.res.1046.dll",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/install.res.1049.dll",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/install.res.1053.dll",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/install.res.1055.dll",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/install.res.2052.dll",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/install.res.2070.dll",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/install.res.3076.dll",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/install.res.3082.dll",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/netfx.bmp",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/netfx.msi",
+    "windows/Microsoft.NET/Framework/v2.0.50727/Microsoft .NET Framework 2.0/unicows.dll",
+    "windows/Microsoft.NET/Framework/v2.0.50727/ndpsetup.ico"
+  ],
+  "registry": [
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Features\\1F3B805BA42A0C233B0158879691FE82",
+      "name": "NetFX20A_enu_x86_net_IDKEYS",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Features\\1F3B805BA42A0C233B0158879691FE82",
+      "name": "Redist_UI",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Features\\1F3B805BA42A0C233B0158879691FE82",
+      "name": "Servicing_Key",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Features\\1F3B805BA42A0C233B0158879691FE82",
+      "name": "URTM_STD_ENU_X86_IXP",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Features\\1F3B805BA42A0C233B0158879691FE82",
+      "name": "Watson20_x86_All_MSMs",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\1F3B805BA42A0C233B0158879691FE82",
+      "name": "AdvertiseFlags",
+      "type": "dword",
+      "data": 388
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\1F3B805BA42A0C233B0158879691FE82",
+      "name": "Assignment",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\1F3B805BA42A0C233B0158879691FE82",
+      "name": "AuthorizedLUAApp",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\1F3B805BA42A0C233B0158879691FE82",
+      "name": "Clients",
+      "type": "multi_sz",
+      "data": [
+        ":"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\1F3B805BA42A0C233B0158879691FE82",
+      "name": "InstanceType",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\1F3B805BA42A0C233B0158879691FE82",
+      "name": "Language",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\1F3B805BA42A0C233B0158879691FE82",
+      "name": "PackageCode",
+      "type": "sz",
+      "data": "F5AD85FF89770B540B554CF1F57AC086"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\1F3B805BA42A0C233B0158879691FE82",
+      "name": "ProductName",
+      "type": "sz",
+      "data": "Microsoft .NET Framework 2.0 Service Pack 1"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\1F3B805BA42A0C233B0158879691FE82",
+      "name": "Version",
+      "type": "dword",
+      "data": 33640990
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\1F3B805BA42A0C233B0158879691FE82\\Patches",
+      "name": "E44F9CA57C603E144A467371A79B01D5",
+      "type": "sz",
+      "data": ":T1ToU1;:#T1ToU1"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\1F3B805BA42A0C233B0158879691FE82\\Patches",
+      "name": "Patches",
+      "type": "multi_sz",
+      "data": [
+        "6073E3C7DBF896147962A074BF9F3DA2",
+        "80F86D540A652144BBF04829EB79A87C",
+        "00001363E86FDE860794D8778BF18EA36A1A",
+        "00002BD48EBD497144248995B927C08AB9D4",
+        "00007A0DC8558450022488EF10CC4177FD16",
+        "DF36C10937666A74B9F51BE3E3FB4A07",
+        "CCA0F521CF3DB204D869726F4ED6005D",
+        "DEC4EC3C0B64E7047A30A738AA0EA263",
+        "E44F9CA57C603E144A467371A79B01D5"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\1F3B805BA42A0C233B0158879691FE82\\SourceList",
+      "name": "PackageName",
+      "type": "sz",
+      "data": "netfx20a_x86.msi"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\1F3B805BA42A0C233B0158879691FE82\\SourceList\\Media",
+      "name": "32000",
+      "type": "sz",
+      "data": ";"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\1F3B805BA42A0C233B0158879691FE82\\SourceList\\Media",
+      "name": "32001",
+      "type": "sz",
+      "data": ";"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\1F3B805BA42A0C233B0158879691FE82\\SourceList\\Media",
+      "name": "32002",
+      "type": "sz",
+      "data": ";"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\1F3B805BA42A0C233B0158879691FE82\\SourceList\\Media",
+      "name": "32004",
+      "type": "sz",
+      "data": ";"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\1F3B805BA42A0C233B0158879691FE82\\SourceList\\Media",
+      "name": "32005",
+      "type": "sz",
+      "data": ";"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\1F3B805BA42A0C233B0158879691FE82\\SourceList\\Media",
+      "name": "32006",
+      "type": "sz",
+      "data": ";"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\1F3B805BA42A0C233B0158879691FE82\\SourceList\\Media",
+      "name": "32007",
+      "type": "sz",
+      "data": ";"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\1F3B805BA42A0C233B0158879691FE82\\SourceList\\Media",
+      "name": "32008",
+      "type": "sz",
+      "data": ";"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\1F3B805BA42A0C233B0158879691FE82\\SourceList\\Media",
+      "name": "DiskPrompt",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\1F3B805BA42A0C233B0158879691FE82\\SourceList\\Media",
+      "name": "MediaPackage",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\1F3B805BA42A0C233B0158879691FE82\\SourceList\\Net",
+      "name": "1",
+      "type": "expand_sz",
+      "data": "c:\\7163de46068e46ae794a\\wcu\\dotnetframework\\dotnetfx20\\"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\UpgradeCodes",
+      "type": "key"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\.NETFramework\\v2.0.50727\\SBSDisabled",
+      "name": "Install",
+      "type": "sz",
+      "data": "1"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Active Setup\\Installed Components\\{B508B3F1-A24A-32C0-B310-85786919EF28}",
+      "name": "",
+      "type": "sz",
+      "data": ".NET Framework"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Active Setup\\Installed Components\\{B508B3F1-A24A-32C0-B310-85786919EF28}",
+      "name": "ComponentID",
+      "type": "sz",
+      "data": ".NETFramework"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Active Setup\\Installed Components\\{B508B3F1-A24A-32C0-B310-85786919EF28}",
+      "name": "Locale",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Active Setup\\Installed Components\\{B508B3F1-A24A-32C0-B310-85786919EF28}",
+      "name": "Version",
+      "type": "sz",
+      "data": "2,0,50727,0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\ASP.NET\\2.0.50727.0\\CompilationMutexName",
+      "name": "",
+      "type": "sz",
+      "data": "SZ63OOYteXvAG8wcHFiokXwWnhF3Ca"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\DevDiv\\NetFx\\Servicing\\2.0",
+      "name": "SP",
+      "type": "dword",
+      "data": 1
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\DevDiv\\NetFx\\Servicing\\2.0",
+      "name": "SPIndex",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\DevDiv\\NetFx\\Servicing\\2.0\\1033",
+      "name": "Install",
+      "type": "dword",
+      "data": 1
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\DevDiv\\NetFx\\Servicing\\2.0\\1033",
+      "name": "InstallerType",
+      "type": "sz",
+      "data": "MSI"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\DevDiv\\NetFx\\Servicing\\2.0\\1033",
+      "name": "SP",
+      "type": "dword",
+      "data": 1
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\DevDiv\\NetFx\\Servicing\\2.0\\1033",
+      "name": "SPIndex",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\DevDiv\\NetFx\\Servicing\\2.0\\1033",
+      "name": "SPName",
+      "type": "sz",
+      "data": "SP1"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\NET Framework Setup\\NDP\\v2.0.50727",
+      "name": "Increment",
+      "type": "sz",
+      "data": "1433"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\NET Framework Setup\\NDP\\v2.0.50727",
+      "name": "SP",
+      "type": "dword",
+      "data": 1
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\NET Framework Setup\\NDP\\v2.0.50727",
+      "name": "Version",
+      "type": "sz",
+      "data": "2.1.21022"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\NET Framework Setup\\NDP\\v2.0.50727\\1033",
+      "name": "SP",
+      "type": "dword",
+      "data": 1
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\NET Framework Setup\\NDP\\v4\\Client",
+      "type": "key"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\VisualStudio\\3.5\\Setup",
+      "type": "key"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\VisualStudio\\9.0\\Setup\\Watson",
+      "name": "UserID",
+      "type": "sz",
+      "data": "{48512C93-357F-40BF-8927-F8D4E07D103A}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Installer\\UpgradeCodes",
+      "type": "key"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SO\\DOTNET\\MANIFESTPERMISSIONS",
+      "name": "Bitmap",
+      "type": "sz",
+      "data": "C:\\windows\\system32\\mscorier.dll,2000"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SO\\DOTNET\\MANIFESTPERMISSIONS",
+      "name": "PlugUIText",
+      "type": "sz",
+      "data": "@mscorier.dll,-1007"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SO\\DOTNET\\MANIFESTPERMISSIONS",
+      "name": "Text",
+      "type": "sz",
+      "data": "Permissions for components with manifests"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SO\\DOTNET\\MANIFESTPERMISSIONS",
+      "name": "Type",
+      "type": "sz",
+      "data": "group"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SO\\DOTNET\\MANIFESTPERMISSIONS\\DISABLE",
+      "name": "CheckedValue",
+      "type": "dword",
+      "data": 3
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SO\\DOTNET\\MANIFESTPERMISSIONS\\DISABLE",
+      "name": "DefaultValue",
+      "type": "dword",
+      "data": 65536
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SO\\DOTNET\\MANIFESTPERMISSIONS\\DISABLE",
+      "name": "PlugUIText",
+      "type": "sz",
+      "data": "@mscorier.dll,-1003"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SO\\DOTNET\\MANIFESTPERMISSIONS\\DISABLE",
+      "name": "RegPath",
+      "type": "sz",
+      "data": "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\%s"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SO\\DOTNET\\MANIFESTPERMISSIONS\\DISABLE",
+      "name": "Text",
+      "type": "sz",
+      "data": "Disable"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SO\\DOTNET\\MANIFESTPERMISSIONS\\DISABLE",
+      "name": "Type",
+      "type": "sz",
+      "data": "radio"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SO\\DOTNET\\MANIFESTPERMISSIONS\\DISABLE",
+      "name": "ValueName",
+      "type": "sz",
+      "data": "2007"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SO\\DOTNET\\MANIFESTPERMISSIONS\\HIGHSAFETY",
+      "name": "CheckedValue",
+      "type": "dword",
+      "data": 65536
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SO\\DOTNET\\MANIFESTPERMISSIONS\\HIGHSAFETY",
+      "name": "DefaultValue",
+      "type": "dword",
+      "data": 65536
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SO\\DOTNET\\MANIFESTPERMISSIONS\\HIGHSAFETY",
+      "name": "PlugUIText",
+      "type": "sz",
+      "data": "@mscorier.dll,-1008"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SO\\DOTNET\\MANIFESTPERMISSIONS\\HIGHSAFETY",
+      "name": "RegPath",
+      "type": "sz",
+      "data": "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\%s"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SO\\DOTNET\\MANIFESTPERMISSIONS\\HIGHSAFETY",
+      "name": "Text",
+      "type": "sz",
+      "data": "High Safety"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SO\\DOTNET\\MANIFESTPERMISSIONS\\HIGHSAFETY",
+      "name": "Type",
+      "type": "sz",
+      "data": "radio"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SO\\DOTNET\\MANIFESTPERMISSIONS\\HIGHSAFETY",
+      "name": "ValueName",
+      "type": "sz",
+      "data": "2007"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SOIEAK\\DOTNET\\MANIFESTPERMISSIONS",
+      "name": "Bitmap",
+      "type": "sz",
+      "data": "C:\\windows\\system32\\mscorier.dll,2000"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SOIEAK\\DOTNET\\MANIFESTPERMISSIONS",
+      "name": "PlugUIText",
+      "type": "sz",
+      "data": "@mscorier.dll,-1007"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SOIEAK\\DOTNET\\MANIFESTPERMISSIONS",
+      "name": "Text",
+      "type": "sz",
+      "data": "Permissions for components with manifests"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SOIEAK\\DOTNET\\MANIFESTPERMISSIONS",
+      "name": "Type",
+      "type": "sz",
+      "data": "group"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SOIEAK\\DOTNET\\MANIFESTPERMISSIONS\\DISABLE",
+      "name": "CheckedValue",
+      "type": "dword",
+      "data": 3
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SOIEAK\\DOTNET\\MANIFESTPERMISSIONS\\DISABLE",
+      "name": "DefaultValue",
+      "type": "dword",
+      "data": 65536
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SOIEAK\\DOTNET\\MANIFESTPERMISSIONS\\DISABLE",
+      "name": "PlugUIText",
+      "type": "sz",
+      "data": "@mscorier.dll,-1003"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SOIEAK\\DOTNET\\MANIFESTPERMISSIONS\\DISABLE",
+      "name": "RegPath",
+      "type": "sz",
+      "data": "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\%s"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SOIEAK\\DOTNET\\MANIFESTPERMISSIONS\\DISABLE",
+      "name": "Text",
+      "type": "sz",
+      "data": "Disable"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SOIEAK\\DOTNET\\MANIFESTPERMISSIONS\\DISABLE",
+      "name": "Type",
+      "type": "sz",
+      "data": "radio"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SOIEAK\\DOTNET\\MANIFESTPERMISSIONS\\DISABLE",
+      "name": "ValueName",
+      "type": "sz",
+      "data": "2007"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SOIEAK\\DOTNET\\MANIFESTPERMISSIONS\\HIGHSAFETY",
+      "name": "CheckedValue",
+      "type": "dword",
+      "data": 65536
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SOIEAK\\DOTNET\\MANIFESTPERMISSIONS\\HIGHSAFETY",
+      "name": "DefaultValue",
+      "type": "dword",
+      "data": 65536
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SOIEAK\\DOTNET\\MANIFESTPERMISSIONS\\HIGHSAFETY",
+      "name": "PlugUIText",
+      "type": "sz",
+      "data": "@mscorier.dll,-1008"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SOIEAK\\DOTNET\\MANIFESTPERMISSIONS\\HIGHSAFETY",
+      "name": "RegPath",
+      "type": "sz",
+      "data": "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\%s"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SOIEAK\\DOTNET\\MANIFESTPERMISSIONS\\HIGHSAFETY",
+      "name": "Text",
+      "type": "sz",
+      "data": "High Safety"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SOIEAK\\DOTNET\\MANIFESTPERMISSIONS\\HIGHSAFETY",
+      "name": "Type",
+      "type": "sz",
+      "data": "radio"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\SOIEAK\\DOTNET\\MANIFESTPERMISSIONS\\HIGHSAFETY",
+      "name": "ValueName",
+      "type": "sz",
+      "data": "2007"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\TemplatePolicies\\High",
+      "name": "2007",
+      "type": "dword",
+      "data": 3
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\TemplatePolicies\\Low",
+      "name": "2007",
+      "type": "dword",
+      "data": 65536
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\TemplatePolicies\\MedHigh",
+      "name": "2001",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\TemplatePolicies\\MedHigh",
+      "name": "2004",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\TemplatePolicies\\MedHigh",
+      "name": "2007",
+      "type": "dword",
+      "data": 65536
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\TemplatePolicies\\Medium",
+      "name": "2007",
+      "type": "dword",
+      "data": 65536
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\TemplatePolicies\\MedLow",
+      "name": "2007",
+      "type": "dword",
+      "data": 65536
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\0",
+      "name": "2007",
+      "type": "dword",
+      "data": 3
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\1",
+      "name": "2007",
+      "type": "dword",
+      "data": 65536
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\2",
+      "name": "2007",
+      "type": "dword",
+      "data": 65536
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3",
+      "name": "2007",
+      "type": "dword",
+      "data": 65536
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4",
+      "name": "2007",
+      "type": "dword",
+      "data": 3
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SharedDLLs",
+      "name": "",
+      "type": "dword",
+      "data": 1
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SharedDLLs",
+      "name": "C:\\windows\\Microsoft.NET\\Framework\\v1.0.3705\\mscormmc.cfg",
+      "type": "dword",
+      "data": 4
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SharedDLLs",
+      "name": "C:\\windows\\Microsoft.NET\\Framework\\v1.0.3705\\mscormmc.dll",
+      "type": "dword",
+      "data": 4
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SharedDLLs",
+      "name": "C:\\windows\\Microsoft.NET\\Framework\\v2.0.50727\\Microsoft.JScript.tlb",
+      "type": "dword",
+      "data": 4
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SharedDLLs",
+      "name": "C:\\windows\\Microsoft.NET\\Framework\\v2.0.50727\\Microsoft.Vsa.tlb",
+      "type": "dword",
+      "data": 4
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SharedDLLs",
+      "name": "C:\\windows\\Microsoft.NET\\Framework\\v2.0.50727\\Microsoft.Vsa.Vb.CodeDOMProcessor.tlb",
+      "type": "dword",
+      "data": 4
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SharedDLLs",
+      "name": "C:\\windows\\Microsoft.NET\\Framework\\v2.0.50727\\mscoree.tlb",
+      "type": "dword",
+      "data": 4
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SharedDLLs",
+      "name": "C:\\windows\\Microsoft.NET\\Framework\\v2.0.50727\\mscorlib.tlb",
+      "type": "dword",
+      "data": 4
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SharedDLLs",
+      "name": "C:\\windows\\Microsoft.NET\\Framework\\v2.0.50727\\System.Drawing.tlb",
+      "type": "dword",
+      "data": 4
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SharedDLLs",
+      "name": "C:\\windows\\Microsoft.NET\\Framework\\v2.0.50727\\System.EnterpriseServices.tlb",
+      "type": "dword",
+      "data": 4
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SharedDLLs",
+      "name": "C:\\windows\\Microsoft.NET\\Framework\\v2.0.50727\\System.tlb",
+      "type": "dword",
+      "data": 4
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SharedDLLs",
+      "name": "C:\\windows\\Microsoft.NET\\Framework\\v2.0.50727\\System.Windows.Forms.tlb",
+      "type": "dword",
+      "data": 4
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SharedDLLs",
+      "name": "C:\\windows\\system32\\mscories.dll",
+      "type": "dword",
+      "data": 4
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SharedDLLs",
+      "name": "C:\\windows\\system32\\WBEM\\wbemDC.dll",
+      "type": "dword",
+      "data": 4
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SharedDLLs",
+      "name": "C:\\windows\\system32\\WBEM\\Wmidcad.dll",
+      "type": "dword",
+      "data": 4
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SharedDLLs",
+      "name": "C:\\windows\\system32\\WBEM\\wmiutils.dll",
+      "type": "dword",
+      "data": 4
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.100_x-ww_6818287e\\downlevel_manifest.8.0.50727.100",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.100_x-ww_6818287e\\downlevel_payload.8.0.50727.100",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.101_x-ww_6818287f\\downlevel_manifest.8.0.50727.101",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.101_x-ww_6818287f\\downlevel_payload.8.0.50727.101",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.103_x-ww_68182881\\downlevel_manifest.8.0.50727.103",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.103_x-ww_68182881\\downlevel_payload.8.0.50727.103",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.104_x-ww_68182882\\downlevel_manifest.8.0.50727.104",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.104_x-ww_68182882\\downlevel_payload.8.0.50727.104",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.1433_x-ww_5cf844d2\\downlevel_manifest.8.0.50727.1433",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.1433_x-ww_5cf844d2\\downlevel_payload.8.0.50727.1433",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.193_x-ww_68212ab8\\downlevel_manifest.8.0.50727.193",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.193_x-ww_68212ab8\\downlevel_payload.8.0.50727.193",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.238_x-ww_689938c4\\downlevel_manifest.8.0.50727.238",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.238_x-ww_689938c4\\downlevel_payload.8.0.50727.238",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.89_x-ww_0de46bd0\\downlevel_manifest.8.0.50727.89",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.89_x-ww_0de46bd0\\downlevel_payload.8.0.50727.89",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.93_x-ww_0de56c09\\downlevel_manifest.8.0.50727.93",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.93_x-ww_0de56c09\\downlevel_payload.8.0.50727.93",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.94_x-ww_0de56c0a\\downlevel_manifest.8.0.50727.94",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.94_x-ww_0de56c0a\\downlevel_payload.8.0.50727.94",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.95_x-ww_0de56c0b\\downlevel_manifest.8.0.50727.95",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.95_x-ww_0de56c0b\\downlevel_payload.8.0.50727.95",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.96_x-ww_0de56c0c\\downlevel_manifest.8.0.50727.96",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.96_x-ww_0de56c0c\\downlevel_payload.8.0.50727.96",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.97_x-ww_0de56c0d\\downlevel_manifest.8.0.50727.97",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.97_x-ww_0de56c0d\\downlevel_payload.8.0.50727.97",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.98_x-ww_0de56c0e\\downlevel_manifest.8.0.50727.98",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.98_x-ww_0de56c0e\\downlevel_payload.8.0.50727.98",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.99_x-ww_0de56c0f\\downlevel_manifest.8.0.50727.99",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.99_x-ww_0de56c0f\\downlevel_payload.8.0.50727.99",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.100_x-ww_ac1be585\\downlevel_manifest.8.0.50727.100",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.101_x-ww_ac1be586\\downlevel_manifest.8.0.50727.101",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.103_x-ww_ac1be588\\downlevel_manifest.8.0.50727.103",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.104_x-ww_ac1be589\\downlevel_manifest.8.0.50727.104",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.1433_x-ww_a0fc01d9\\downlevel_manifest.8.0.50727.1433",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.193_x-ww_ac24e7bf\\downlevel_manifest.8.0.50727.193",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.238_x-ww_ac9cf5cb\\downlevel_manifest.8.0.50727.238",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.89_x-ww_51e828d7\\downlevel_manifest.8.0.50727.89",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.93_x-ww_51e92910\\downlevel_manifest.8.0.50727.93",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.94_x-ww_51e92911\\downlevel_manifest.8.0.50727.94",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.95_x-ww_51e92912\\downlevel_manifest.8.0.50727.95",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.96_x-ww_51e92913\\downlevel_manifest.8.0.50727.96",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.97_x-ww_51e92914\\downlevel_manifest.8.0.50727.97",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.98_x-ww_51e92915\\downlevel_manifest.8.0.50727.98",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\Installations\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.99_x-ww_51e92916\\downlevel_manifest.8.0.50727.99",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{0F4A94C7-278B-516C-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Policies\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_x-ww_77c24773\\\\8.0.50727.1433.policy",
+        "{0F4A94C7-278B-516C-C01F-C8B3B9A1E18E}",
+        "C:\\windows\\winsxs\\Policies\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_x-ww_77c24773\\\\8.0.50727.1433.cat",
+        "{0F4A94C7-278B-516C-C01F-C8B3B9A1E18E}",
+        "C:\\windows\\winsxs\\Policies\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_x-ww_77c24773\\",
+        "{0F4A94C7-278B-516C-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{442C6F7E-76CA-D08B-B01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.1433_x-ww_5cf844d2\\\\msvcr80.dll",
+        "{442C6F7E-76CA-D08B-B01F-C8B3B9A1E18E}",
+        "C:\\windows\\winsxs\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.1433_x-ww_5cf844d2\\\\msvcp80.dll",
+        "{442C6F7E-76CA-D08B-B01F-C8B3B9A1E18E}",
+        "C:\\windows\\winsxs\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.1433_x-ww_5cf844d2\\\\msvcm80.dll",
+        "{442C6F7E-76CA-D08B-B01F-C8B3B9A1E18E}",
+        "C:\\windows\\winsxs\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.1433_x-ww_5cf844d2\\",
+        "{442C6F7E-76CA-D08B-B01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{442C6F7E-76CA-D08B-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Manifests\\\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.1433_x-ww_5cf844d2.manifest",
+        "{442C6F7E-76CA-D08B-C01F-C8B3B9A1E18E}",
+        "C:\\windows\\winsxs\\Manifests\\\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.1433_x-ww_5cf844d2.cat",
+        "{442C6F7E-76CA-D08B-C01F-C8B3B9A1E18E}",
+        "C:\\windows\\winsxs\\Manifests\\",
+        "{442C6F7E-76CA-D08B-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{63E93C0A-0D16-5C40-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Policies\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_x-ww_77c24773\\",
+        "{63E93C0A-0D16-5C40-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{63E93C5B-0CF2-5C40-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Policies\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_x-ww_77c24773\\",
+        "{63E93C5B-0CF2-5C40-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{63E93CAC-0CCE-5C40-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Policies\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_x-ww_77c24773\\",
+        "{63E93CAC-0CCE-5C40-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{63E93CFD-0CAA-5C40-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Policies\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_x-ww_77c24773\\",
+        "{63E93CFD-0CAA-5C40-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{63E93D4E-0C86-5C40-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Policies\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_x-ww_77c24773\\",
+        "{63E93D4E-0C86-5C40-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{63E93D9F-0C62-5C40-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Policies\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_x-ww_77c24773\\",
+        "{63E93D9F-0C62-5C40-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{63E93DF0-0C3E-5C40-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Policies\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_x-ww_77c24773\\",
+        "{63E93DF0-0C3E-5C40-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{63E940C9-0A58-5C40-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Policies\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_x-ww_77c24773\\",
+        "{63E940C9-0A58-5C40-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{63E949F6-03BC-5C40-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Policies\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_x-ww_77c24773\\",
+        "{63E949F6-03BC-5C40-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{67188395-9ECA-9199-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Policies\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_x-ww_77c24773\\",
+        "{67188395-9ECA-9199-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{671C201F-9C28-9195-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Policies\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_x-ww_77c24773\\",
+        "{671C201F-9C28-9195-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{671D06C8-9BDE-9194-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Policies\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_x-ww_77c24773\\",
+        "{671D06C8-9BDE-9194-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{671D09A1-9A9A-9194-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Policies\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_x-ww_77c24773\\",
+        "{671D09A1-9A9A-9194-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{671ED41A-9B4A-9192-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Policies\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_x-ww_77c24773\\",
+        "{671ED41A-9B4A-9192-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{671FBAC3-9B00-9191-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Policies\\x86_policy.8.0.Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_x-ww_77c24773\\",
+        "{671FBAC3-9B00-9191-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{98CB16C1-5C55-DB5F-B01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.93_x-ww_0de56c09\\",
+        "{98CB16C1-5C55-DB5F-B01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{98CB16C1-5C55-DB5F-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Manifests\\",
+        "{98CB16C1-5C55-DB5F-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{98CB1712-5C31-DB5F-B01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.94_x-ww_0de56c0a\\",
+        "{98CB1712-5C31-DB5F-B01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{98CB1712-5C31-DB5F-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Manifests\\",
+        "{98CB1712-5C31-DB5F-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{98CB1763-5C0D-DB5F-B01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.95_x-ww_0de56c0b\\",
+        "{98CB1763-5C0D-DB5F-B01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{98CB1763-5C0D-DB5F-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Manifests\\",
+        "{98CB1763-5C0D-DB5F-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{98CB17B4-5BE9-DB5F-B01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.96_x-ww_0de56c0c\\",
+        "{98CB17B4-5BE9-DB5F-B01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{98CB17B4-5BE9-DB5F-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Manifests\\",
+        "{98CB17B4-5BE9-DB5F-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{98CB1805-5BC5-DB5F-B01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.97_x-ww_0de56c0d\\",
+        "{98CB1805-5BC5-DB5F-B01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{98CB1805-5BC5-DB5F-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Manifests\\",
+        "{98CB1805-5BC5-DB5F-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{98CB1856-5BA1-DB5F-B01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.98_x-ww_0de56c0e\\",
+        "{98CB1856-5BA1-DB5F-B01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{98CB1856-5BA1-DB5F-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Manifests\\",
+        "{98CB1856-5BA1-DB5F-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{98CB18A7-5B7D-DB5F-B01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.99_x-ww_0de56c0f\\",
+        "{98CB18A7-5B7D-DB5F-B01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{98CB18A7-5B7D-DB5F-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Manifests\\",
+        "{98CB18A7-5B7D-DB5F-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{98CB1B80-5997-DB5F-B01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.89_x-ww_0de46bd0\\",
+        "{98CB1B80-5997-DB5F-B01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{98CB1B80-5997-DB5F-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Manifests\\",
+        "{98CB1B80-5997-DB5F-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{98CB24AD-52FB-DB5F-B01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.42_x-ww_0de06acd\\",
+        "{98CB24AD-52FB-DB5F-B01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{98CB24AD-52FB-DB5F-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Manifests\\",
+        "{98CB24AD-52FB-DB5F-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{9BFA5E4C-EE09-10B8-B01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.238_x-ww_689938c4\\",
+        "{9BFA5E4C-EE09-10B8-B01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{9BFA5E4C-EE09-10B8-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Manifests\\",
+        "{9BFA5E4C-EE09-10B8-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{9BFDFAD6-EB67-10B4-B01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.104_x-ww_68182882\\",
+        "{9BFDFAD6-EB67-10B4-B01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{9BFDFAD6-EB67-10B4-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Manifests\\",
+        "{9BFDFAD6-EB67-10B4-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{9BFEE17F-EB1D-10B3-B01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.103_x-ww_68182881\\",
+        "{9BFEE17F-EB1D-10B3-B01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{9BFEE17F-EB1D-10B3-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Manifests\\",
+        "{9BFEE17F-EB1D-10B3-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{9BFEE458-E9D9-10B3-B01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.193_x-ww_68212ab8\\",
+        "{9BFEE458-E9D9-10B3-B01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{9BFEE458-E9D9-10B3-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Manifests\\",
+        "{9BFEE458-E9D9-10B3-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{9C00AED1-EA89-10B1-B01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.101_x-ww_6818287f\\",
+        "{9C00AED1-EA89-10B1-B01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{9C00AED1-EA89-10B1-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Manifests\\",
+        "{9C00AED1-EA89-10B1-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{9C01957A-EA3F-10B0-B01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.100_x-ww_6818287e\\",
+        "{9C01957A-EA3F-10B0-B01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\SideBySide\\PatchedComponents",
+      "name": "{9C01957A-EA3F-10B0-C01F-C8B3B9A1E18E}",
+      "type": "multi_sz",
+      "data": [
+        "C:\\windows\\winsxs\\Manifests\\",
+        "{9C01957A-EA3F-10B0-C01F-C8B3B9A1E18E}"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "System\\CurrentControlSet\\Control\\Class\\{4D36E968-E325-11CE-BFC1-08002BE10318}\\0000",
+      "name": "DriverDateData",
+      "type": "binary",
+      "data": "9f22535bda58dd01"
+    },
+    {
+      "hive": "HKCU",
+      "key": "Software\\Microsoft\\VisualStudio\\9.0\\DownloadManager",
+      "type": "key"
+    }
+  ]
+}

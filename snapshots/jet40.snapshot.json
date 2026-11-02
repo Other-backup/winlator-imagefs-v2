@@ -1,0 +1,4374 @@
+{
+  "schema": 1,
+  "component": "jet40",
+  "recorded": "2026-10-10T06:39:41Z",
+  "wine": "wine-9.0 (Ubuntu 9.0~repack-4build3)",
+  "arch": "win32",
+  "layout": "win64",
+  "installer": {
+    "name": "jet40.exe",
+    "size": 3872168,
+    "sha256": "b060246cd499085a31f15873689d5fa7df817e407c8261a5c71fa6b9f7042560",
+    "args": [
+      "/q"
+    ],
+    "exit": 0,
+    "seconds": 7,
+    "extractors": [
+      "innoextract",
+      "7z"
+    ]
+  },
+  "installers": [
+    {
+      "name": "jet40.exe",
+      "size": 3872168,
+      "sha256": "b060246cd499085a31f15873689d5fa7df817e407c8261a5c71fa6b9f7042560",
+      "args": [
+        "/q"
+      ]
+    }
+  ],
+  "after": [],
+  "winver": null,
+  "stats": {
+    "files": 27,
+    "from_installer": 0,
+    "inline": 0,
+    "archived": 27,
+    "missing": 0,
+    "removed": 0,
+    "registry": 594
+  },
+  "files_archive": {
+    "name": "jet40.files.tar.xz",
+    "size": 2578076,
+    "sha256": "0a17edf857af5cf6afa095ff51a4de9f080a8c78027e363442d04054216cfb36",
+    "licence": "Microsoft Jet 4.0 SP8 redistributable: licensed for redistribution with applications."
+  },
+  "files": [
+    {
+      "path": "Program Files (x86)/Common Files/Microsoft Shared/dao/dao360.dll",
+      "size": 567848,
+      "sha256": "89efcc82aa952dd9387924a581433ebb97a6620a415e333de6e0393dda00faab",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/expsrv.dll",
+      "size": 387680,
+      "sha256": "2b7d594459350dfc16d2314b93127fcb360544e6fbc57e1d4d1c67b704e2c2ff",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/jetodbc.rsp",
+      "size": 696,
+      "sha256": "3388135575ccca3cef62b405b0d05999cb86c1f49730f31e69c937fde5feec44",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/msexch40.dll",
+      "size": 518752,
+      "sha256": "c5998a6d6a089ea1ae7740fb02f00caeed60cb7bcd919cdb2a3bf9c0b9b10658",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/msexcl40.dll",
+      "size": 326184,
+      "sha256": "b4ed0b3c91ec226833a61b58a35d7b75841939571ac06930ef5c3eedcb81a441",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/msjet40.dll",
+      "size": 1514024,
+      "sha256": "2d6f18ea70fd32680bfed0428f563c7d7ec7745171f07cb564539666f829201e",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/msjetoledb40.dll",
+      "size": 354864,
+      "sha256": "29a6af48e86c46b1936443e8bba383b4dac366d3139fa136c4a7a7f75fa59b3d",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/msjint40.dll",
+      "size": 158256,
+      "sha256": "0875e55c97941ca4c3b0497c2fb8994561f90cb9cfba714b59a8b82a9966e2a4",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/msjter40.dll",
+      "size": 60000,
+      "sha256": "e3529177647d2407e612401f3219db19a8a6dae4ff899f0d6e4dd50e63f53d03",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/msjtes40.dll",
+      "size": 248360,
+      "sha256": "84205f66a7047c9eedd47a9d3a2f3f67afd6d72d4f1a5bdf28442c49e4266fa4",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/msltus40.dll",
+      "size": 219744,
+      "sha256": "bb6432a0bb71ea37070c883c81b67d35affd15559722ae0c05a7a6a16f1df2f6",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/mspbde40.dll",
+      "size": 354856,
+      "sha256": "8f1638a3ca0e17b50d27f18109004e5b55a72308f148aea2aa44b63f76ab4782",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/msrd2x40.dll",
+      "size": 428640,
+      "sha256": "72b8eb521246c74306a445f960d0ba052b2ae2f0464b8d75f4d62dd9aa606fee",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/msrd3x40.dll",
+      "size": 322144,
+      "sha256": "4117a624e8e8f2e80f1d8441db309109fc5ab6a15ec0b7e71d197cfd69b0ea87",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/msrepl40.dll",
+      "size": 559656,
+      "sha256": "1f03f0c88900a615532497923f249be70f7054d148b4cf0667561eb5a75b6094",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/mstext40.dll",
+      "size": 264744,
+      "sha256": "4d3112351283a87e45e904e28966c712d47b65d0f91e8ac68b595cb9ede574de",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/mswdat10.dll",
+      "size": 838240,
+      "sha256": "ecdce3352f802d65254d33870253f46966551e79bc583c4361cdbe3b96f87ae2",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/mswstr10.dll",
+      "size": 621104,
+      "sha256": "b0cb6b7a81d0ab4619f247d799b49219a8f0c50d3007dd6f421e508bf0660518",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/msxbde40.dll",
+      "size": 354856,
+      "sha256": "3c42f1374f0dabfc569fc0aabde755ec7639e127b189668aec572de6bb9b9d50",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/odbcji32.dll",
+      "size": 60224,
+      "sha256": "eb89f2d4592ddc9f24bdf5aaf043fa989fad5118dc94d00c6cc8d02db1e42321",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/odbcjt32.dll",
+      "size": 285224,
+      "sha256": "7cfade2e58bc5d1a444b870476c934b622861b7a7eef8bd047865f215e498c60",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/oddbse32.dll",
+      "size": 27464,
+      "sha256": "3e01c3664b62e7776d41022cd616b00585970ef6105d719cb441c72525754be5",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/odexl32.dll",
+      "size": 27464,
+      "sha256": "ed927a6608f31c2a7039a2a3ae5ab960089618a91737c532d1a41ab8f4af9d21",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/odfox32.dll",
+      "size": 27464,
+      "sha256": "fa571c0093a7d1f4f84b269294acab4a29740ce6a10e50f1836b87d93046997a",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/odpdx32.dll",
+      "size": 27464,
+      "sha256": "16865ddeac995235875f06488709086f2f4095c30d07350bfb25005a44650da5",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/odtext32.dll",
+      "size": 27464,
+      "sha256": "62721b558649c90d722c3d50d275121a27e9622dc56587fd54b6059aa973a9e4",
+      "archived": true
+    },
+    {
+      "path": "windows/syswow64/vbajet32.dll",
+      "size": 37472,
+      "sha256": "9d25584e69ca0cc1ee76b2be2fa42ba08eaab41f6fff74a2562999680e1df420",
+      "archived": true
+    }
+  ],
+  "removed": [],
+  "registry": [
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\.jod",
+      "name": "",
+      "type": "sz",
+      "data": "Microsoft.Jet.OLEDB.4.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\DAO.DBEngine.36",
+      "name": "",
+      "type": "sz",
+      "data": "Microsoft DAO 3.6 Object Library DBEngine"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\DAO.DBEngine.36\\CLSID",
+      "name": "",
+      "type": "sz",
+      "data": "{00000100-0000-0010-8000-00AA006D2EA4}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\DAO.Field.36",
+      "name": "",
+      "type": "sz",
+      "data": "Microsoft DAO 3.6 Object Library Field"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\DAO.Field.36\\CLSID",
+      "name": "",
+      "type": "sz",
+      "data": "{00000104-0000-0010-8000-00AA006D2EA4}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\DAO.Group.36",
+      "name": "",
+      "type": "sz",
+      "data": "Microsoft DAO 3.6 Object Library Group"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\DAO.Group.36\\CLSID",
+      "name": "",
+      "type": "sz",
+      "data": "{00000106-0000-0010-8000-00AA006D2EA4}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\DAO.Index.36",
+      "name": "",
+      "type": "sz",
+      "data": "Microsoft DAO 3.6 Object Library Index"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\DAO.Index.36\\CLSID",
+      "name": "",
+      "type": "sz",
+      "data": "{00000105-0000-0010-8000-00AA006D2EA4}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\DAO.PrivateDBEngine.36",
+      "name": "",
+      "type": "sz",
+      "data": "Microsoft DAO 3.6 Object Library PrivateDBEngine"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\DAO.PrivateDBEngine.36\\CLSID",
+      "name": "",
+      "type": "sz",
+      "data": "{00000101-0000-0010-8000-00AA006D2EA4}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\DAO.QueryDef.36",
+      "name": "",
+      "type": "sz",
+      "data": "Microsoft DAO 3.6 Object Library QueryDef"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\DAO.QueryDef.36\\CLSID",
+      "name": "",
+      "type": "sz",
+      "data": "{00000108-0000-0010-8000-00AA006D2EA4}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\DAO.Relation.36",
+      "name": "",
+      "type": "sz",
+      "data": "Microsoft DAO 3.6 Object Library Relation"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\DAO.Relation.36\\CLSID",
+      "name": "",
+      "type": "sz",
+      "data": "{00000109-0000-0010-8000-00AA006D2EA4}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\DAO.TableDef.36",
+      "name": "",
+      "type": "sz",
+      "data": "Microsoft DAO 3.6 Object Library TableDef"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\DAO.TableDef.36\\CLSID",
+      "name": "",
+      "type": "sz",
+      "data": "{00000103-0000-0010-8000-00AA006D2EA4}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\DAO.User.36",
+      "name": "",
+      "type": "sz",
+      "data": "Microsoft DAO 3.6 Object Library User"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\DAO.User.36\\CLSID",
+      "name": "",
+      "type": "sz",
+      "data": "{00000107-0000-0010-8000-00AA006D2EA4}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Microsoft.Jet.OLEDB.4.0",
+      "name": "",
+      "type": "sz",
+      "data": "Microsoft.Jet.OLEDB.4.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Microsoft.Jet.OLEDB.4.0\\CLSID",
+      "name": "",
+      "type": "sz",
+      "data": "{dee35070-506b-11cf-b1aa-00aa00b8de95}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Microsoft.Jet.OLEDB.4.0Errors",
+      "name": "",
+      "type": "sz",
+      "data": "Microsoft Jet 4.0 OLE DB Provider Error Lookup"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Microsoft.Jet.OLEDB.4.0Errors\\Clsid",
+      "name": "",
+      "type": "sz",
+      "data": "{dee35071-506b-11cf-b1aa-00aa00b8de95}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Typelib\\{00025E01-0000-0000-C000-000000000046}\\5.0",
+      "name": "",
+      "type": "sz",
+      "data": "Microsoft DAO 3.6 Object Library"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Typelib\\{00025E01-0000-0000-C000-000000000046}\\5.0\\0\\win32",
+      "name": "",
+      "type": "sz",
+      "data": "C:\\Program Files (x86)\\Common files\\Microsoft shared\\dao\\dao360.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Typelib\\{00025E01-0000-0000-C000-000000000046}\\5.0\\FLAGS",
+      "name": "",
+      "type": "sz",
+      "data": "8"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Typelib\\{00025E01-0000-0000-C000-000000000046}\\5.0\\HELPDIR",
+      "name": "",
+      "type": "sz",
+      "data": "C:\\Program Files (x86)\\Common files\\Microsoft shared\\dao\\"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Typelib\\{2358C810-62BA-11D1-B3DB-00600832C573}\\4.0",
+      "name": "",
+      "type": "sz",
+      "data": "JET Expression Service Type Library"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Typelib\\{2358C810-62BA-11D1-B3DB-00600832C573}\\4.0\\0\\win32",
+      "name": "",
+      "type": "sz",
+      "data": "C:\\windows\\system32\\msjtes40.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Typelib\\{2358C810-62BA-11D1-B3DB-00600832C573}\\4.0\\FLAGS",
+      "name": "",
+      "type": "sz",
+      "data": "8"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Typelib\\{2358C810-62BA-11D1-B3DB-00600832C573}\\4.0\\HELPDIR",
+      "name": "",
+      "type": "sz",
+      "data": "C:\\windows\\system32"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000100-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "DAO.DBEngine.36"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000100-0000-0010-8000-00AA006D2EA4}\\InprocServer32",
+      "name": "",
+      "type": "sz",
+      "data": "C:\\Program Files (x86)\\Common files\\Microsoft shared\\dao\\dao360.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000100-0000-0010-8000-00AA006D2EA4}\\InprocServer32",
+      "name": "ThreadingModel",
+      "type": "sz",
+      "data": "Apartment"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000100-0000-0010-8000-00AA006D2EA4}\\ProgID",
+      "name": "",
+      "type": "sz",
+      "data": "DAO.DBEngine.36"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000101-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "DAO.PrivateDBEngine.36"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000101-0000-0010-8000-00AA006D2EA4}\\InprocServer32",
+      "name": "",
+      "type": "sz",
+      "data": "C:\\Program Files (x86)\\Common files\\Microsoft shared\\dao\\dao360.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000101-0000-0010-8000-00AA006D2EA4}\\InprocServer32",
+      "name": "ThreadingModel",
+      "type": "sz",
+      "data": "Apartment"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000101-0000-0010-8000-00AA006D2EA4}\\ProgID",
+      "name": "",
+      "type": "sz",
+      "data": "DAO.PrivateDBEngine.36"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000103-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "DAO.TableDef.36"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000103-0000-0010-8000-00AA006D2EA4}\\InprocServer32",
+      "name": "",
+      "type": "sz",
+      "data": "C:\\Program Files (x86)\\Common files\\Microsoft shared\\dao\\dao360.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000103-0000-0010-8000-00AA006D2EA4}\\InprocServer32",
+      "name": "ThreadingModel",
+      "type": "sz",
+      "data": "Apartment"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000103-0000-0010-8000-00AA006D2EA4}\\ProgID",
+      "name": "",
+      "type": "sz",
+      "data": "DAO.TableDef.36"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000104-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "DAO.Field.36"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000104-0000-0010-8000-00AA006D2EA4}\\InprocServer32",
+      "name": "",
+      "type": "sz",
+      "data": "C:\\Program Files (x86)\\Common files\\Microsoft shared\\dao\\dao360.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000104-0000-0010-8000-00AA006D2EA4}\\InprocServer32",
+      "name": "ThreadingModel",
+      "type": "sz",
+      "data": "Apartment"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000104-0000-0010-8000-00AA006D2EA4}\\ProgID",
+      "name": "",
+      "type": "sz",
+      "data": "DAO.Field.36"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000105-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "DAO.Index.36"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000105-0000-0010-8000-00AA006D2EA4}\\InprocServer32",
+      "name": "",
+      "type": "sz",
+      "data": "C:\\Program Files (x86)\\Common files\\Microsoft shared\\dao\\dao360.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000105-0000-0010-8000-00AA006D2EA4}\\InprocServer32",
+      "name": "ThreadingModel",
+      "type": "sz",
+      "data": "Apartment"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000105-0000-0010-8000-00AA006D2EA4}\\ProgID",
+      "name": "",
+      "type": "sz",
+      "data": "DAO.Index.36"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000106-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "DAO.Group.36"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000106-0000-0010-8000-00AA006D2EA4}\\InprocServer32",
+      "name": "",
+      "type": "sz",
+      "data": "C:\\Program Files (x86)\\Common files\\Microsoft shared\\dao\\dao360.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000106-0000-0010-8000-00AA006D2EA4}\\InprocServer32",
+      "name": "ThreadingModel",
+      "type": "sz",
+      "data": "Apartment"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000106-0000-0010-8000-00AA006D2EA4}\\ProgID",
+      "name": "",
+      "type": "sz",
+      "data": "DAO.Group.36"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000107-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "DAO.User.36"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000107-0000-0010-8000-00AA006D2EA4}\\InprocServer32",
+      "name": "",
+      "type": "sz",
+      "data": "C:\\Program Files (x86)\\Common files\\Microsoft shared\\dao\\dao360.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000107-0000-0010-8000-00AA006D2EA4}\\InprocServer32",
+      "name": "ThreadingModel",
+      "type": "sz",
+      "data": "Apartment"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000107-0000-0010-8000-00AA006D2EA4}\\ProgID",
+      "name": "",
+      "type": "sz",
+      "data": "DAO.User.36"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000108-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "DAO.QueryDef.36"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000108-0000-0010-8000-00AA006D2EA4}\\InprocServer32",
+      "name": "",
+      "type": "sz",
+      "data": "C:\\Program Files (x86)\\Common files\\Microsoft shared\\dao\\dao360.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000108-0000-0010-8000-00AA006D2EA4}\\InprocServer32",
+      "name": "ThreadingModel",
+      "type": "sz",
+      "data": "Apartment"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000108-0000-0010-8000-00AA006D2EA4}\\ProgID",
+      "name": "",
+      "type": "sz",
+      "data": "DAO.QueryDef.36"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000109-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "DAO.Relation.36"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000109-0000-0010-8000-00AA006D2EA4}\\InprocServer32",
+      "name": "",
+      "type": "sz",
+      "data": "C:\\Program Files (x86)\\Common files\\Microsoft shared\\dao\\dao360.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000109-0000-0010-8000-00AA006D2EA4}\\InprocServer32",
+      "name": "ThreadingModel",
+      "type": "sz",
+      "data": "Apartment"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{00000109-0000-0010-8000-00AA006D2EA4}\\ProgID",
+      "name": "",
+      "type": "sz",
+      "data": "DAO.Relation.36"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{039EA4C0-E696-11d0-878A-00A0C91EC756}",
+      "name": "",
+      "type": "sz",
+      "data": "Jet Expression Service"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{039EA4C0-E696-11d0-878A-00A0C91EC756}\\InprocServer32",
+      "name": "",
+      "type": "sz",
+      "data": "C:\\windows\\system32\\msjtes40.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{039EA4C0-E696-11d0-878A-00A0C91EC756}\\InprocServer32",
+      "name": "ThreadingModel",
+      "type": "sz",
+      "data": "Both"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{039EA4C0-E696-11d0-878A-00A0C91EC756}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{2358C810-62BA-11d1-B3DB-00600832C573}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{dee35070-506b-11cf-b1aa-00aa00b8de95}",
+      "name": "",
+      "type": "sz",
+      "data": "Microsoft.Jet.OLEDB.4.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{dee35070-506b-11cf-b1aa-00aa00b8de95}",
+      "name": "OLEDB_SERVICES",
+      "type": "dword",
+      "data": 4294967294
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{dee35070-506b-11cf-b1aa-00aa00b8de95}\\ExtendedErrors",
+      "name": "",
+      "type": "sz",
+      "data": "Microsoft Jet 4.0 OLE DB Provider Error Lookup"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{dee35070-506b-11cf-b1aa-00aa00b8de95}\\ExtendedErrors\\{dee35071-506b-11cf-b1aa-00aa00b8de95}",
+      "name": "",
+      "type": "sz",
+      "data": "Microsoft Jet 4.0 OLE DB ProviderError Lookup"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{dee35070-506b-11cf-b1aa-00aa00b8de95}\\InprocServer32",
+      "name": "",
+      "type": "sz",
+      "data": "C:\\windows\\system32\\msjetoledb40.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{dee35070-506b-11cf-b1aa-00aa00b8de95}\\InprocServer32",
+      "name": "ThreadingModel",
+      "type": "sz",
+      "data": "Both"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{dee35070-506b-11cf-b1aa-00aa00b8de95}\\OLE DB Provider",
+      "name": "",
+      "type": "sz",
+      "data": "Microsoft Jet 4.0 OLE DB Provider"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{dee35070-506b-11cf-b1aa-00aa00b8de95}\\ProgID",
+      "name": "",
+      "type": "sz",
+      "data": "Microsoft.Jet.OLEDB.4.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{dee35070-506b-11cf-b1aa-00aa00b8de95}\\VersionIndependentProgID",
+      "name": "",
+      "type": "sz",
+      "data": "Microsoft.Jet.OLEDB"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{dee35071-506b-11cf-b1aa-00aa00b8de95}",
+      "name": "",
+      "type": "sz",
+      "data": "Microsoft Jet 4.0 OLE DB Provider Error Lookup"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{dee35071-506b-11cf-b1aa-00aa00b8de95}\\InprocServer32",
+      "name": "",
+      "type": "sz",
+      "data": "C:\\windows\\system32\\msjetoledb40.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{dee35071-506b-11cf-b1aa-00aa00b8de95}\\InprocServer32",
+      "name": "ThreadingModel",
+      "type": "sz",
+      "data": "Both"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{dee35071-506b-11cf-b1aa-00aa00b8de95}\\ProgID",
+      "name": "",
+      "type": "sz",
+      "data": "Microsoft.Jet.OLEDB.ErrorLookup.4.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\CLSID\\{dee35071-506b-11cf-b1aa-00aa00b8de95}\\VersionIndependentProgID",
+      "name": "",
+      "type": "sz",
+      "data": "Microsoft.Jet.OLEDB.ErrorLookup"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000000A-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "_DAO"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000000A-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000000A-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000000A-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000000A-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000021-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "_DBEngine"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000021-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000021-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000021-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000021-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000023-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "Error"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000023-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000023-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000023-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000023-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000025-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "Errors"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000025-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000025-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000025-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000025-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000027-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "Property"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000027-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000027-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000027-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000027-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000029-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "Properties"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000029-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000029-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000029-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000029-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000031-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "Recordset"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000031-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000031-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000031-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000031-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000033-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "Recordsets"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000033-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000033-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000033-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000033-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000039-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "Workspace"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000039-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000039-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000039-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000039-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000003B-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "Workspaces"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000003B-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000003B-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000003B-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000003B-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000041-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "Connection"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000041-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000041-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000041-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000041-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000043-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "Connections"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000043-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000043-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000043-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000043-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000049-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "_TableDef"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000049-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000049-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000049-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000049-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000004B-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "TableDefs"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000004B-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000004B-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000004B-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000004B-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000051-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "_Field"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000051-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000051-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000051-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000051-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000053-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "Fields"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000053-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000053-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000053-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000053-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000059-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "_Index"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000059-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000059-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000059-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000059-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000005B-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "Indexes"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000005B-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000005B-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000005B-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000005B-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000005D-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "IndexFields"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000005D-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000005D-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000005D-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000005D-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000061-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "_Group"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000061-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000061-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000061-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000061-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000063-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "Groups"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000063-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000063-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000063-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000063-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000069-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "_User"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000069-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000069-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000069-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000069-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000006B-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "Users"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000006B-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000006B-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000006B-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000006B-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000071-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "Database"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000071-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000071-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000071-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000071-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000073-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "Databases"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000073-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000073-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000073-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000073-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000079-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "_QueryDef"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000079-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000079-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000079-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000079-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000007B-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "QueryDefs"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000007B-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000007B-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000007B-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000007B-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000081-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "Parameter"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000081-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000081-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000081-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000081-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000083-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "Parameters"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000083-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000083-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000083-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000083-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000089-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "_Relation"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000089-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000089-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000089-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000089-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000008B-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "Relations"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000008B-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000008B-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000008B-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000008B-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000091-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "Container"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000091-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000091-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000091-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000091-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000093-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "Containers"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000093-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000093-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000093-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000093-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000099-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "Document"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000099-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000099-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000099-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{00000099-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000009B-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "Documents"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000009B-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000009B-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000009B-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{0000009B-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{000000A0-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "_Collection"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{000000A0-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{000000A0-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{000000A0-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{000000A0-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{000000A2-0000-0010-8000-00AA006D2EA4}",
+      "name": "",
+      "type": "sz",
+      "data": "_DynaCollection"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{000000A2-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{000000A2-0000-0010-8000-00AA006D2EA4}\\ProxyStubClsid32",
+      "name": "",
+      "type": "sz",
+      "data": "{00020424-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{000000A2-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "",
+      "type": "sz",
+      "data": "{00025E01-0000-0000-C000-000000000046}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Wow6432Node\\Interface\\{000000A2-0000-0010-8000-00AA006D2EA4}\\TypeLib",
+      "name": "Version",
+      "type": "sz",
+      "data": "5.0"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines",
+      "name": "CompactByPKey",
+      "type": "dword",
+      "data": 1
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines",
+      "name": "PrevFormatCompactWithUNICODECompression",
+      "type": "dword",
+      "data": 1
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines",
+      "name": "SystemDB",
+      "type": "sz",
+      "data": "system.mdb"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Excel",
+      "name": "AppendBlankRows",
+      "type": "dword",
+      "data": 1
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Excel",
+      "name": "DisabledExtensions",
+      "type": "sz",
+      "data": "!xls"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Excel",
+      "name": "FirstRowHasNames",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Excel",
+      "name": "ImportMixedTypes",
+      "type": "sz",
+      "data": "Text"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Excel",
+      "name": "TypeGuessRows",
+      "type": "dword",
+      "data": 8
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Excel",
+      "name": "win32",
+      "type": "sz",
+      "data": "C:\\windows\\system32\\msexcl40.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Exchange",
+      "name": "win32",
+      "type": "sz",
+      "data": "C:\\windows\\system32\\msexch40.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 2.x",
+      "name": "CommitLockRetry",
+      "type": "dword",
+      "data": 20
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 2.x",
+      "name": "CursorTimeout",
+      "type": "dword",
+      "data": 5
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 2.x",
+      "name": "ForceOSFlush",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 2.x",
+      "name": "IdleFrequency",
+      "type": "dword",
+      "data": 10
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 2.x",
+      "name": "LockedPageTimeout",
+      "type": "dword",
+      "data": 5
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 2.x",
+      "name": "LockRetry",
+      "type": "dword",
+      "data": 20
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 2.x",
+      "name": "MaxBufferSize",
+      "type": "dword",
+      "data": 512
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 2.x",
+      "name": "PageTimeout",
+      "type": "dword",
+      "data": 5
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 2.x",
+      "name": "ReadAheadPages",
+      "type": "dword",
+      "data": 8
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 2.x",
+      "name": "win32",
+      "type": "sz",
+      "data": "C:\\windows\\system32\\msrd2x40.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 3.x",
+      "name": "ExclusiveAsyncDelay",
+      "type": "dword",
+      "data": 2000
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 3.x",
+      "name": "FlushTransactionTimeout",
+      "type": "dword",
+      "data": 500
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 3.x",
+      "name": "ImplicitCommitSync",
+      "type": "sz",
+      "data": "no"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 3.x",
+      "name": "LockDelay",
+      "type": "dword",
+      "data": 100
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 3.x",
+      "name": "LockRetry",
+      "type": "dword",
+      "data": 20
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 3.x",
+      "name": "MaxBufferSize",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 3.x",
+      "name": "MaxLocksPerFile",
+      "type": "dword",
+      "data": 9500
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 3.x",
+      "name": "PageTimeout",
+      "type": "dword",
+      "data": 5000
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 3.x",
+      "name": "RecycleLVs",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 3.x",
+      "name": "SharedAsyncDelay",
+      "type": "dword",
+      "data": 50
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 3.x",
+      "name": "Threads",
+      "type": "dword",
+      "data": 3
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 3.x",
+      "name": "UserCommitSync",
+      "type": "sz",
+      "data": "yes"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 3.x",
+      "name": "win32",
+      "type": "sz",
+      "data": "C:\\windows\\system32\\msrd3x40.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 4.0",
+      "name": "ExclusiveAsyncDelay",
+      "type": "dword",
+      "data": 2000
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 4.0",
+      "name": "FlushTransactionTimeout",
+      "type": "dword",
+      "data": 500
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 4.0",
+      "name": "ImplicitCommitSync",
+      "type": "sz",
+      "data": "no"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 4.0",
+      "name": "LockDelay",
+      "type": "dword",
+      "data": 100
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 4.0",
+      "name": "LockRetry",
+      "type": "dword",
+      "data": 20
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 4.0",
+      "name": "MaxBufferSize",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 4.0",
+      "name": "MaxLocksPerFile",
+      "type": "dword",
+      "data": 9500
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 4.0",
+      "name": "PagesLockedToTableLock",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 4.0",
+      "name": "PageTimeout",
+      "type": "dword",
+      "data": 5000
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 4.0",
+      "name": "RecycleLVs",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 4.0",
+      "name": "SharedAsyncDelay",
+      "type": "dword",
+      "data": 50
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 4.0",
+      "name": "Threads",
+      "type": "dword",
+      "data": 3
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Jet 4.0",
+      "name": "UserCommitSync",
+      "type": "sz",
+      "data": "yes"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Lotus",
+      "name": "AppendBlankRows",
+      "type": "dword",
+      "data": 1
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Lotus",
+      "name": "DisabledExtensions",
+      "type": "sz",
+      "data": "!wks,wk1,wk3,wk4,wj2,wj3"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Lotus",
+      "name": "FirstRowHasNames",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Lotus",
+      "name": "ImportMixedTypes",
+      "type": "sz",
+      "data": "Text"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Lotus",
+      "name": "TypeGuessRows",
+      "type": "dword",
+      "data": 8
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Lotus",
+      "name": "win32",
+      "type": "sz",
+      "data": "C:\\windows\\system32\\msltus40.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\ODBC",
+      "name": "AsyncRetryInterval",
+      "type": "dword",
+      "data": 500
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\ODBC",
+      "name": "AttachableObjects",
+      "type": "sz",
+      "data": "'TABLE','VIEW','SYSTEM TABLE','ALIAS','SYNONYM'"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\ODBC",
+      "name": "AttachCaseSensitive",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\ODBC",
+      "name": "ConnectionTimeout",
+      "type": "dword",
+      "data": 600
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\ODBC",
+      "name": "DisableAsync",
+      "type": "dword",
+      "data": 1
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\ODBC",
+      "name": "FastRequery",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\ODBC",
+      "name": "FatBlastRows",
+      "type": "dword",
+      "data": 4294967295
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\ODBC",
+      "name": "FatBlastTimeout",
+      "type": "dword",
+      "data": 3
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\ODBC",
+      "name": "LoginTimeout",
+      "type": "dword",
+      "data": 20
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\ODBC",
+      "name": "ODBCISAMAttach",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\ODBC",
+      "name": "PreparedInsert",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\ODBC",
+      "name": "PreparedUpdate",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\ODBC",
+      "name": "QueryTimeout",
+      "type": "dword",
+      "data": 60
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\ODBC",
+      "name": "SnapshotOnly",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\ODBC",
+      "name": "TraceODBCAPI",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\ODBC",
+      "name": "TraceSQLMode",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\ODBC",
+      "name": "TryJetAuth",
+      "type": "dword",
+      "data": 1
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Paradox",
+      "name": "CollatingSequence",
+      "type": "sz",
+      "data": "Ascii"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Paradox",
+      "name": "DataCodePage",
+      "type": "sz",
+      "data": "OEM"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Paradox",
+      "name": "NetworkAccess",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Paradox",
+      "name": "PageTimeout",
+      "type": "dword",
+      "data": 600
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Paradox",
+      "name": "win32",
+      "type": "sz",
+      "data": "C:\\windows\\system32\\mspbde40.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Text",
+      "name": "CharacterSet",
+      "type": "sz",
+      "data": "ANSI"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Text",
+      "name": "DisabledExtensions",
+      "type": "sz",
+      "data": "!txt,csv,tab,asc,tmp,htm,html"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Text",
+      "name": "ExportCurrencySymbols",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Text",
+      "name": "Extensions",
+      "type": "sz",
+      "data": "txt,csv,tab,asc"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Text",
+      "name": "FirstRowHasNames",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Text",
+      "name": "Format",
+      "type": "sz",
+      "data": "CSVDelimited"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Text",
+      "name": "ImportFixedFormat",
+      "type": "sz",
+      "data": "RaggedEdge"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Text",
+      "name": "ImportMixedTypes",
+      "type": "sz",
+      "data": "Majority Type"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Text",
+      "name": "MaxScanRows",
+      "type": "dword",
+      "data": 25
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Text",
+      "name": "UseZeroMaxScanAs",
+      "type": "sz",
+      "data": "One"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Text",
+      "name": "win32",
+      "type": "sz",
+      "data": "C:\\windows\\system32\\mstext40.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Xbase",
+      "name": "Century",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Xbase",
+      "name": "CollatingSequence",
+      "type": "sz",
+      "data": "Ascii"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Xbase",
+      "name": "DataCodePage",
+      "type": "sz",
+      "data": "OEM"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Xbase",
+      "name": "Date",
+      "type": "sz",
+      "data": "MDY"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Xbase",
+      "name": "DbcsStr",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Xbase",
+      "name": "Deleted",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Xbase",
+      "name": "Exact",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Xbase",
+      "name": "Mark",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Xbase",
+      "name": "NetworkAccess",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Xbase",
+      "name": "PageTimeout",
+      "type": "dword",
+      "data": 600
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Engines\\Xbase",
+      "name": "win32",
+      "type": "sz",
+      "data": "C:\\windows\\system32\\msxbde40.dll"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase 5.0",
+      "name": "CanLink",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase 5.0",
+      "name": "CreateDBOnExport",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase 5.0",
+      "name": "Engine",
+      "type": "sz",
+      "data": "Xbase"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase 5.0",
+      "name": "ExportFilter",
+      "type": "sz",
+      "data": "dBASE 5 (*.dbf)"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase 5.0",
+      "name": "ImportFilter",
+      "type": "sz",
+      "data": "dBASE 5 (*.dbf)"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase 5.0",
+      "name": "IndexDialog",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase 5.0",
+      "name": "IndexFilter",
+      "type": "sz",
+      "data": "dBASE Index (*.ndx;*.mdx)"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase 5.0",
+      "name": "IsamType",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase 5.0",
+      "name": "OneTablePerFile",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase 5.0",
+      "name": "ResultTextExport",
+      "type": "sz",
+      "data": "Export data from the current database into a dBase 5 file.  This process will overwrite the data if exported to an existing file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase 5.0",
+      "name": "ResultTextImport",
+      "type": "sz",
+      "data": "Import data from the external file into the current database. Changing data in the current database will not change data in the external file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase 5.0",
+      "name": "ResultTextLink",
+      "type": "sz",
+      "data": "Create a table in the current database that is linked to the external file.  Changing data in the current database will change data in the external file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase 5.0",
+      "name": "SupportsLongNames",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase III",
+      "name": "CanLink",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase III",
+      "name": "CreateDBOnExport",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase III",
+      "name": "Engine",
+      "type": "sz",
+      "data": "Xbase"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase III",
+      "name": "ExportFilter",
+      "type": "sz",
+      "data": "dBASE III (*.dbf)"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase III",
+      "name": "ImportFilter",
+      "type": "sz",
+      "data": "dBASE III (*.dbf)"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase III",
+      "name": "IndexDialog",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase III",
+      "name": "IndexFilter",
+      "type": "sz",
+      "data": "dBASE Index (*.ndx)"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase III",
+      "name": "IsamType",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase III",
+      "name": "OneTablePerFile",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase III",
+      "name": "ResultTextExport",
+      "type": "sz",
+      "data": "Export data from the current database into a dBase III file.  This process will overwrite the data if exported to an existing file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase III",
+      "name": "ResultTextImport",
+      "type": "sz",
+      "data": "Import data from the external file into the current database. Changing data in the current database will not change data in the external file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase III",
+      "name": "ResultTextLink",
+      "type": "sz",
+      "data": "Create a table in the current database that is linked to the external file.  Changing data in the current database will change data in the external file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase III",
+      "name": "SupportsLongNames",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase IV",
+      "name": "CanLink",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase IV",
+      "name": "CreateDBOnExport",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase IV",
+      "name": "Engine",
+      "type": "sz",
+      "data": "Xbase"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase IV",
+      "name": "ExportFilter",
+      "type": "sz",
+      "data": "dBASE IV (*.dbf)"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase IV",
+      "name": "ImportFilter",
+      "type": "sz",
+      "data": "dBASE IV (*.dbf)"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase IV",
+      "name": "IndexDialog",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase IV",
+      "name": "IndexFilter",
+      "type": "sz",
+      "data": "dBASE Index (*.ndx;*.mdx)"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase IV",
+      "name": "IsamType",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase IV",
+      "name": "OneTablePerFile",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase IV",
+      "name": "ResultTextExport",
+      "type": "sz",
+      "data": "Export data from the current database into a dBase IV file.  This process will overwrite the data if exported to an existing file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase IV",
+      "name": "ResultTextImport",
+      "type": "sz",
+      "data": "Import data from the external file into the current database. Changing data in the current database will not change data in the external file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase IV",
+      "name": "ResultTextLink",
+      "type": "sz",
+      "data": "Create a table in the current database that is linked to the external file.  Changing data in the current database will change data in the external file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\dBase IV",
+      "name": "SupportsLongNames",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 3.0",
+      "name": "CanLink",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 3.0",
+      "name": "CreateDBOnExport",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 3.0",
+      "name": "Engine",
+      "type": "sz",
+      "data": "Excel"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 3.0",
+      "name": "ExportFilter",
+      "type": "sz",
+      "data": "Microsoft Excel 3 (*.xls)"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 3.0",
+      "name": "IndexDialog",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 3.0",
+      "name": "IsamType",
+      "type": "dword",
+      "data": 1
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 3.0",
+      "name": "OneTablePerFile",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 3.0",
+      "name": "ResultTextExport",
+      "type": "sz",
+      "data": "Export data from the current database into an Excel 3 file.  This process will overwrite the data if exported to an existing file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 3.0",
+      "name": "SupportsLongNames",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 4.0",
+      "name": "CanLink",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 4.0",
+      "name": "CreateDBOnExport",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 4.0",
+      "name": "Engine",
+      "type": "sz",
+      "data": "Excel"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 4.0",
+      "name": "ExportFilter",
+      "type": "sz",
+      "data": "Microsoft Excel 4 (*.xls)"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 4.0",
+      "name": "IndexDialog",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 4.0",
+      "name": "IsamType",
+      "type": "dword",
+      "data": 1
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 4.0",
+      "name": "OneTablePerFile",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 4.0",
+      "name": "ResultTextExport",
+      "type": "sz",
+      "data": "Export data from the current database into an Excel 4 file.  This process will overwrite the data if exported to an existing file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 4.0",
+      "name": "SupportsLongNames",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 5.0",
+      "name": "CanLink",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 5.0",
+      "name": "CreateDBOnExport",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 5.0",
+      "name": "Engine",
+      "type": "sz",
+      "data": "Excel"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 5.0",
+      "name": "ExportFilter",
+      "type": "sz",
+      "data": "Microsoft Excel 5-7 (*.xls)"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 5.0",
+      "name": "ImportFilter",
+      "type": "sz",
+      "data": "Microsoft Excel (*.xls)"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 5.0",
+      "name": "IndexDialog",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 5.0",
+      "name": "IsamType",
+      "type": "dword",
+      "data": 1
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 5.0",
+      "name": "OneTablePerFile",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 5.0",
+      "name": "ResultTextExport",
+      "type": "sz",
+      "data": "Export data from the current database into an Excel 5-7 file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 5.0",
+      "name": "ResultTextImport",
+      "type": "sz",
+      "data": "Import data from the external file into the current database. Changing data in the current database will not change data in the external file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 5.0",
+      "name": "ResultTextLink",
+      "type": "sz",
+      "data": "Create a table in the current database that is linked to the external file.  Changing data in the current database will change data in the external file. Only one user at a time can change data in the file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 5.0",
+      "name": "SupportsLongNames",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 8.0",
+      "name": "CanLink",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 8.0",
+      "name": "CreateDBOnExport",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 8.0",
+      "name": "Engine",
+      "type": "sz",
+      "data": "Excel"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 8.0",
+      "name": "ExportFilter",
+      "type": "sz",
+      "data": "Microsoft Excel 97-2000 (*.xls)"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 8.0",
+      "name": "IndexDialog",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 8.0",
+      "name": "IsamType",
+      "type": "dword",
+      "data": 1
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 8.0",
+      "name": "OneTablePerFile",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 8.0",
+      "name": "ResultTextExport",
+      "type": "sz",
+      "data": "Export data from the current database into an Excel 97-2000 file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Excel 8.0",
+      "name": "SupportsLongNames",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Exchange 4.0",
+      "name": "CanLink",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Exchange 4.0",
+      "name": "CreateDBOnExport",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Exchange 4.0",
+      "name": "Engine",
+      "type": "sz",
+      "data": "Exchange"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Exchange 4.0",
+      "name": "ImportFilter",
+      "type": "sz",
+      "data": "Exchange()"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Exchange 4.0",
+      "name": "IndexDialog",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Exchange 4.0",
+      "name": "IsamType",
+      "type": "dword",
+      "data": 3
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Exchange 4.0",
+      "name": "OneTablePerFile",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Exchange 4.0",
+      "name": "SupportsLongNames",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\HTML Export",
+      "name": "CanLink",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\HTML Export",
+      "name": "CreateDBOnExport",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\HTML Export",
+      "name": "Engine",
+      "type": "sz",
+      "data": "Text"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\HTML Export",
+      "name": "ExportFilter",
+      "type": "sz",
+      "data": "HTML Documents (*.html;*.htm)"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\HTML Export",
+      "name": "IndexDialog",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\HTML Export",
+      "name": "IsamType",
+      "type": "dword",
+      "data": 2
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\HTML Export",
+      "name": "OneTablePerFile",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\HTML Export",
+      "name": "ResultTextExport",
+      "type": "sz",
+      "data": "Export data from the current database into a text file.  This process will overwrite data if exported to an existing file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\HTML Export",
+      "name": "SupportsLongNames",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\HTML Import",
+      "name": "CanLink",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\HTML Import",
+      "name": "CreateDBOnExport",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\HTML Import",
+      "name": "Engine",
+      "type": "sz",
+      "data": "Text"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\HTML Import",
+      "name": "ImportFilter",
+      "type": "sz",
+      "data": "HTML Documents (*.html;*.htm)"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\HTML Import",
+      "name": "IndexDialog",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\HTML Import",
+      "name": "IsamType",
+      "type": "dword",
+      "data": 2
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\HTML Import",
+      "name": "OneTablePerFile",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\HTML Import",
+      "name": "ResultTextImport",
+      "type": "sz",
+      "data": "Import data from the external file into the current database. Changing data in the current database will not change data in the external file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\HTML Import",
+      "name": "ResultTextLink",
+      "type": "sz",
+      "data": "Create a table in the current database that is linked to the external file.  Changing data in the current database will change data in the external file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\HTML Import",
+      "name": "SupportsLongNames",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Jet 2.x",
+      "name": "CreateDBOnExport",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Jet 2.x",
+      "name": "Engine",
+      "type": "sz",
+      "data": "Jet 2.x"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Jet 2.x",
+      "name": "IndexDialog",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Jet 2.x",
+      "name": "IsamType",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Jet 2.x",
+      "name": "OneTablePerFile",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Jet 3.x",
+      "name": "CreateDBOnExport",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Jet 3.x",
+      "name": "Engine",
+      "type": "sz",
+      "data": "Jet 3.x"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Jet 3.x",
+      "name": "IndexDialog",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Jet 3.x",
+      "name": "IsamType",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Jet 3.x",
+      "name": "OneTablePerFile",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WJ2",
+      "name": "CanLink",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WJ2",
+      "name": "CreateDBOnExport",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WJ2",
+      "name": "Engine",
+      "type": "sz",
+      "data": "Lotus"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WJ2",
+      "name": "ExportFilter",
+      "type": "sz",
+      "data": "Lotus 1-2-3 WJ2 (*.wj2)"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WJ2",
+      "name": "ImportFilter",
+      "type": "sz",
+      "data": "Lotus 1-2-3/DOS (*.wj*)"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WJ2",
+      "name": "IndexDialog",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WJ2",
+      "name": "IsamType",
+      "type": "dword",
+      "data": 1
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WJ2",
+      "name": "OneTablePerFile",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WJ2",
+      "name": "ResultTextExport",
+      "type": "sz",
+      "data": "Export data from the current database into a Lotus 1-2-3 version 2 file.  This process will overwrite data if exported to an existing file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WJ2",
+      "name": "SupportsLongNames",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WJ3",
+      "name": "CanLink",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WJ3",
+      "name": "CreateDBOnExport",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WJ3",
+      "name": "Engine",
+      "type": "sz",
+      "data": "Lotus"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WJ3",
+      "name": "IndexDialog",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WJ3",
+      "name": "IsamType",
+      "type": "dword",
+      "data": 1
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WJ3",
+      "name": "OneTablePerFile",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WJ3",
+      "name": "SupportsLongNames",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WK1",
+      "name": "CanLink",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WK1",
+      "name": "CreateDBOnExport",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WK1",
+      "name": "Engine",
+      "type": "sz",
+      "data": "Lotus"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WK1",
+      "name": "ExportFilter",
+      "type": "sz",
+      "data": "Lotus 1-2-3 WK1 (*.wk1)"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WK1",
+      "name": "ImportFilter",
+      "type": "sz",
+      "data": "Lotus 1-2-3 (*.wk*)"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WK1",
+      "name": "IndexDialog",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WK1",
+      "name": "IsamType",
+      "type": "dword",
+      "data": 1
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WK1",
+      "name": "OneTablePerFile",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WK1",
+      "name": "ResultTextExport",
+      "type": "sz",
+      "data": "Export data from the current database into a Lotus 1-2-3 version 2 file.  This process will overwrite data if exported to an existing file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WK1",
+      "name": "ResultTextImport",
+      "type": "sz",
+      "data": "Import data from the external file into the current database. Changing data in the current database will not change data in the external file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WK1",
+      "name": "SupportsLongNames",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WK3",
+      "name": "CanLink",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WK3",
+      "name": "CreateDBOnExport",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WK3",
+      "name": "Engine",
+      "type": "sz",
+      "data": "Lotus"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WK3",
+      "name": "ExportFilter",
+      "type": "sz",
+      "data": "Lotus 1-2-3 WK3 (*.wk3)"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WK3",
+      "name": "IndexDialog",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WK3",
+      "name": "IsamType",
+      "type": "dword",
+      "data": 1
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WK3",
+      "name": "OneTablePerFile",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WK3",
+      "name": "ResultTextExport",
+      "type": "sz",
+      "data": "Export data from the current database into a Lotus 1-2-3 version 3 file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WK3",
+      "name": "SupportsLongNames",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WK4",
+      "name": "CanLink",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WK4",
+      "name": "CreateDBOnExport",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WK4",
+      "name": "Engine",
+      "type": "sz",
+      "data": "Lotus"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WK4",
+      "name": "IndexDialog",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WK4",
+      "name": "IsamType",
+      "type": "dword",
+      "data": 1
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WK4",
+      "name": "OneTablePerFile",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Lotus WK4",
+      "name": "SupportsLongNames",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Outlook 9.0",
+      "name": "CanLink",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Outlook 9.0",
+      "name": "CreateDBOnExport",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Outlook 9.0",
+      "name": "Engine",
+      "type": "sz",
+      "data": "Exchange"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Outlook 9.0",
+      "name": "ImportFilter",
+      "type": "sz",
+      "data": "Outlook()"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Outlook 9.0",
+      "name": "IndexDialog",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Outlook 9.0",
+      "name": "IsamType",
+      "type": "dword",
+      "data": 3
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Outlook 9.0",
+      "name": "OneTablePerFile",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Outlook 9.0",
+      "name": "SupportsLongNames",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 3.X",
+      "name": "CanLink",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 3.X",
+      "name": "CreateDBOnExport",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 3.X",
+      "name": "Engine",
+      "type": "sz",
+      "data": "Paradox"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 3.X",
+      "name": "ExportFilter",
+      "type": "sz",
+      "data": "Paradox 3 (*.db)"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 3.X",
+      "name": "ImportFilter",
+      "type": "sz",
+      "data": "Paradox (*.db)"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 3.X",
+      "name": "IndexDialog",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 3.X",
+      "name": "IsamType",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 3.X",
+      "name": "OneTablePerFile",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 3.X",
+      "name": "ResultTextExport",
+      "type": "sz",
+      "data": "Export data from the current database into a Paradox 3 file.  This process will overwrite the data if exported to an existing file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 3.X",
+      "name": "ResultTextImport",
+      "type": "sz",
+      "data": "Import data from the external file into the current database. Changing data in the current database will not change data in the external file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 3.X",
+      "name": "ResultTextLink",
+      "type": "sz",
+      "data": "Create a table in the current database that is linked to the external file.  Changing data in the current database will change data in the external file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 3.X",
+      "name": "SupportsLongNames",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 4.X",
+      "name": "CanLink",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 4.X",
+      "name": "CreateDBOnExport",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 4.X",
+      "name": "Engine",
+      "type": "sz",
+      "data": "Paradox"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 4.X",
+      "name": "ExportFilter",
+      "type": "sz",
+      "data": "Paradox 4 (*.db)"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 4.X",
+      "name": "IndexDialog",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 4.X",
+      "name": "IsamType",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 4.X",
+      "name": "OneTablePerFile",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 4.X",
+      "name": "ResultTextExport",
+      "type": "sz",
+      "data": "Export data from the current database into a Paradox 4 file.  This process will overwrite the data if exported to an existing file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 4.X",
+      "name": "SupportsLongNames",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 5.X",
+      "name": "CanLink",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 5.X",
+      "name": "CreateDBOnExport",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 5.X",
+      "name": "Engine",
+      "type": "sz",
+      "data": "Paradox"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 5.X",
+      "name": "ExportFilter",
+      "type": "sz",
+      "data": "Paradox 5 (*.db)"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 5.X",
+      "name": "IndexDialog",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 5.X",
+      "name": "IsamType",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 5.X",
+      "name": "OneTablePerFile",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 5.X",
+      "name": "ResultTextExport",
+      "type": "sz",
+      "data": "Export data from the current database into a Paradox 5 file.  This process will overwrite the data if exported to an existing file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 5.X",
+      "name": "SupportsLongNames",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 7.X",
+      "name": "CanLink",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 7.X",
+      "name": "CreateDBOnExport",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 7.X",
+      "name": "Engine",
+      "type": "sz",
+      "data": "Paradox"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 7.X",
+      "name": "ExportFilter",
+      "type": "sz",
+      "data": "Paradox 7-8 (*.db)"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 7.X",
+      "name": "IndexDialog",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 7.X",
+      "name": "IsamType",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 7.X",
+      "name": "OneTablePerFile",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 7.X",
+      "name": "ResultTextExport",
+      "type": "sz",
+      "data": "Export data from the current database into a Paradox 7-8 file.  This process will overwrite the data if exported to an existing file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Paradox 7.X",
+      "name": "SupportsLongNames",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Text",
+      "name": "CanLink",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Text",
+      "name": "CreateDBOnExport",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Text",
+      "name": "Engine",
+      "type": "sz",
+      "data": "Text"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Text",
+      "name": "ExportFilter",
+      "type": "sz",
+      "data": "Text Files (*.txt;*.csv;*.tab;*.asc)"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Text",
+      "name": "ImportFilter",
+      "type": "sz",
+      "data": "Text Files (*.txt;*.csv;*.tab;*.asc)"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Text",
+      "name": "IndexDialog",
+      "type": "binary",
+      "data": "00"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Text",
+      "name": "IsamType",
+      "type": "dword",
+      "data": 2
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Text",
+      "name": "OneTablePerFile",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Text",
+      "name": "ResultTextExport",
+      "type": "sz",
+      "data": "Export data from the current database into a text file.  This process will overwrite data if exported to an existing file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Text",
+      "name": "ResultTextImport",
+      "type": "sz",
+      "data": "Import data from the external file into the current database. Changing data in the current database will not change data in the external file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Text",
+      "name": "ResultTextLink",
+      "type": "sz",
+      "data": "Create a table in the current database that is linked to the external file.  Changing data in the current database will change data in the external file."
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\ISAM Formats\\Text",
+      "name": "SupportsLongNames",
+      "type": "binary",
+      "data": "01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Transporter",
+      "name": "Priority_Direct",
+      "type": "dword",
+      "data": 3
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Transporter",
+      "name": "Priority_FS",
+      "type": "dword",
+      "data": 1
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Transporter",
+      "name": "Priority_Internet",
+      "type": "dword",
+      "data": 2
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Transporter",
+      "name": "Timeout_Internet_Client",
+      "type": "dword",
+      "data": 3600
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Transporter",
+      "name": "Timeout_Internet_Connect",
+      "type": "dword",
+      "data": 120
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Transporter",
+      "name": "Timeout_Synch",
+      "type": "dword",
+      "data": 60
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Transporter",
+      "name": "Timeout_Synch_Internet_Server",
+      "type": "dword",
+      "data": 3600
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Jet\\4.0\\Transporter",
+      "name": "Timeout_Synch_Lock",
+      "type": "dword",
+      "data": 60
+    },
+    {
+      "hive": "HKLM",
+      "key": "System\\CurrentControlSet\\Control\\Class\\{4D36E968-E325-11CE-BFC1-08002BE10318}\\0000",
+      "name": "DriverDateData",
+      "type": "binary",
+      "data": "4e68d7108258dd01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "System\\CurrentControlSet\\Control\\Class\\{4D36E968-E325-11CE-BFC1-08002BE10318}\\0000",
+      "name": "SymbolicLinkValue",
+      "type": "binary",
+      "data": "5c00520065006700690073007400720079005c004d0061006300680069006e0065005c00530079007300740065006d005c00430075007200720065006e00740043006f006e00740072006f006c005300650074005c0043006f006e00740072006f006c005c0043006c006100730073005c007b00340044003300360045003900360038002d0045003300320035002d0031003100430045002d0042004600430031002d003000380030003000320042004500310030003300310038007d005c003000300030003000"
+    }
+  ]
+}

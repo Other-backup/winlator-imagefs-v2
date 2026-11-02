@@ -1,0 +1,615 @@
+{
+  "schema": 1,
+  "component": "aairruntime",
+  "recorded": "2026-10-10T01:39:56Z",
+  "wine": "wine-9.0 (Ubuntu 9.0~repack-4build3)",
+  "arch": "win64",
+  "installer": {
+    "name": "aairruntime.exe",
+    "size": 7838984,
+    "sha256": "c836f96eaeed99144bd5b9f9754a53b38f518152c3fdc44bb1578180dab4ce49",
+    "args": [
+      "-silent",
+      "-eulaAccepted"
+    ],
+    "exit": 0,
+    "seconds": 3,
+    "extractors": [
+      "innoextract",
+      "7z"
+    ]
+  },
+  "installers": [
+    {
+      "name": "aairruntime.exe",
+      "size": 7838984,
+      "sha256": "c836f96eaeed99144bd5b9f9754a53b38f518152c3fdc44bb1578180dab4ce49",
+      "args": [
+        "-silent",
+        "-eulaAccepted"
+      ]
+    }
+  ],
+  "after": [],
+  "winver": null,
+  "stats": {
+    "files": 26,
+    "from_installer": 25,
+    "inline": 1,
+    "archived": 0,
+    "missing": 0,
+    "removed": 0,
+    "registry": 59
+  },
+  "files_archive": null,
+  "files": [
+    {
+      "path": "Program Files (x86)/Adobe/Flash Player/AddIns/airappinstaller/LGPL License.txt",
+      "size": 24985,
+      "sha256": "98b84a0ef7b265dfd8c4796bc03eff27ebce5491026798c14508d80049434feb",
+      "source": "Adobe AIR/Versions/1.0/Resources/WebKit/LGPL License.txt"
+    },
+    {
+      "path": "Program Files (x86)/Adobe/Flash Player/AddIns/airappinstaller/Notice WebKit.txt",
+      "size": 771,
+      "sha256": "935c1d9f4ebd571481dea85160e81c04af15b56adb0dc7664696475389990471",
+      "source": "Adobe AIR/Versions/1.0/Resources/WebKit/Notice WebKit.txt"
+    },
+    {
+      "path": "Program Files (x86)/Adobe/Flash Player/AddIns/airappinstaller/airappinstaller.exe",
+      "size": 54632,
+      "sha256": "e277d2a94295506fe1574cf0b4e499b204f83293b290fc1139098d55e2b7c176",
+      "source": "Adobe AIR/Versions/1.0/Resources/airappinstaller.exe"
+    },
+    {
+      "path": "Program Files (x86)/Adobe/Flash Player/AddIns/airappinstaller/digest.s",
+      "size": 2840,
+      "sha256": "4571ead5d878568c4082003d21f50a39b8687f08e8f631aa20351014373ed2b1",
+      "source": "Adobe AIR/Versions/1.0/Resources/digest.s"
+    },
+    {
+      "path": "Program Files (x86)/Common Files/Adobe AIR/Versions/1.0/Adobe AIR Application Installer.exe",
+      "size": 415520,
+      "sha256": "f810162340e684c85a8caa01ecdbdb185fa60047d2d0f6e366d40f4896cfc6df",
+      "source": "Adobe AIR/Versions/1.0/Adobe AIR Application Installer.exe"
+    },
+    {
+      "path": "Program Files (x86)/Common Files/Adobe AIR/Versions/1.0/Adobe AIR Application Installer.swf",
+      "size": 488411,
+      "sha256": "0673d68f0f0678633076e5a64c2d6f9605485c9d074685e18d5a566afaf6e77c",
+      "source": "Adobe AIR/Versions/1.0/Adobe AIR Application Installer.swf"
+    },
+    {
+      "path": "Program Files (x86)/Common Files/Adobe AIR/Versions/1.0/Adobe AIR.dll",
+      "size": 14130464,
+      "sha256": "387b609319ccafbbc5f21a6d1acca733eb83c8ecb80c6fcf69e0c6e9bdab1a72",
+      "source": "Adobe AIR/Versions/1.0/Adobe AIR.dll"
+    },
+    {
+      "path": "Program Files (x86)/Common Files/Adobe AIR/Versions/1.0/Resources/Adobe AIR Updater.exe",
+      "size": 389408,
+      "sha256": "3ec86c6b25c4acdf8b6ce9f57b9a87bd25f682b9082c55ed1490a6a5b307349e",
+      "source": "Adobe AIR/Versions/1.0/Resources/Adobe AIR Updater.exe"
+    },
+    {
+      "path": "Program Files (x86)/Common Files/Adobe AIR/Versions/1.0/Resources/Adobe Root Certificate.cer",
+      "size": 1189,
+      "sha256": "944e66aa967bd390952d22426bf1dfcd379a2c87a21b942fbca79f41f0354aac",
+      "source": "Adobe AIR/Versions/1.0/Resources/Adobe Root Certificate.cer"
+    },
+    {
+      "path": "Program Files (x86)/Common Files/Adobe AIR/Versions/1.0/Resources/NPSWF32.dll",
+      "size": 45856,
+      "sha256": "2ef2dc28e3d6d7c4018d97cd97de900a80788c3762e1e8e8d1c0e7a8e0cd6bc8",
+      "source": "Adobe AIR/Versions/1.0/Resources/NPSWF32.dll"
+    },
+    {
+      "path": "Program Files (x86)/Common Files/Adobe AIR/Versions/1.0/Resources/NPSWF64.dll",
+      "size": 46880,
+      "sha256": "a4b913efea516de3463cc04648e1c7ab02ce309f694997784843aa79b9be67a4",
+      "source": "Adobe AIR/Versions/1.0/Resources/NPSWF64.dll"
+    },
+    {
+      "path": "Program Files (x86)/Common Files/Adobe AIR/Versions/1.0/Resources/Thawte Root Certificate.cer",
+      "size": 677,
+      "sha256": "6b6c1e01f590f5afc5fcf85cd0b9396884048659fc2c6d1170d68b045216c3fd",
+      "source": "Adobe AIR/Versions/1.0/Resources/Thawte Root Certificate.cer"
+    },
+    {
+      "path": "Program Files (x86)/Common Files/Adobe AIR/Versions/1.0/Resources/WebKit.dll",
+      "size": 5628192,
+      "sha256": "1d5a1f0289449c197fb1667f163cdc25b4a311275275ca677214e0b9b4772d77",
+      "source": "Adobe AIR/Versions/1.0/Resources/WebKit.dll"
+    },
+    {
+      "path": "Program Files (x86)/Common Files/Adobe AIR/Versions/1.0/Resources/WebKit/LGPL License.txt",
+      "size": 24985,
+      "sha256": "98b84a0ef7b265dfd8c4796bc03eff27ebce5491026798c14508d80049434feb",
+      "source": "Adobe AIR/Versions/1.0/Resources/WebKit/LGPL License.txt"
+    },
+    {
+      "path": "Program Files (x86)/Common Files/Adobe AIR/Versions/1.0/Resources/WebKit/Notice WebKit.txt",
+      "size": 771,
+      "sha256": "935c1d9f4ebd571481dea85160e81c04af15b56adb0dc7664696475389990471",
+      "source": "Adobe AIR/Versions/1.0/Resources/WebKit/Notice WebKit.txt"
+    },
+    {
+      "path": "Program Files (x86)/Common Files/Adobe AIR/Versions/1.0/Resources/airappinstaller.exe",
+      "size": 54632,
+      "sha256": "e277d2a94295506fe1574cf0b4e499b204f83293b290fc1139098d55e2b7c176",
+      "source": "Adobe AIR/Versions/1.0/Resources/airappinstaller.exe"
+    },
+    {
+      "path": "Program Files (x86)/Common Files/Adobe AIR/Versions/1.0/Resources/digest.s",
+      "size": 2840,
+      "sha256": "4571ead5d878568c4082003d21f50a39b8687f08e8f631aa20351014373ed2b1",
+      "source": "Adobe AIR/Versions/1.0/Resources/digest.s"
+    },
+    {
+      "path": "Program Files (x86)/Common Files/Adobe AIR/Versions/1.0/Resources/setup.swf",
+      "size": 508927,
+      "sha256": "91f1e320011af0b8aee83ec3b46a5475864323dc90a3b23e641800287cb80b56",
+      "source": "setup.swf"
+    },
+    {
+      "path": "Program Files (x86)/Common Files/Adobe AIR/Versions/1.0/Resources/stylesNative.swf",
+      "size": 235081,
+      "sha256": "27db74581a02b121313a4f4af24e6b2412e56f764101bacb44ecc6d3e8e45d63",
+      "source": "Adobe AIR/Versions/1.0/Resources/stylesNative.swf"
+    },
+    {
+      "path": "Program Files (x86)/Common Files/Adobe AIR/Versions/1.0/Resources/template.exe",
+      "size": 88064,
+      "sha256": "754d51ee3f3c7642949899122976dbe4ee0b79f5baf85f76c068cd8dc907e50d",
+      "source": "Adobe AIR/Versions/1.0/Resources/Template.exe"
+    },
+    {
+      "path": "Program Files (x86)/Common Files/Adobe AIR/Versions/1.0/Resources/template.msi",
+      "size": 36864,
+      "sha256": "598d31f5f53a75356170abe66a129b124b7903c5110a8d78dcfdd0ce515e24a6",
+      "source": "Adobe AIR/Versions/1.0/Resources/template.msi"
+    },
+    {
+      "path": "Program Files (x86)/Common Files/Adobe AIR/Versions/1.0/setup.msi",
+      "size": 49152,
+      "sha256": "396269359299d43f4b747656e8e1a589ef20eea058ef21612af578c6fb9b44d7",
+      "source": "setup.msi"
+    },
+    {
+      "path": "Program Files (x86)/Common Files/Adobe AIR/sentinel",
+      "size": 11,
+      "sha256": "096e4bfd9f7e1faf15058c0a0fe45e6dbd00e3e1360f21f2ca92bce16a9a919a",
+      "source": "Adobe AIR/sentinel"
+    },
+    {
+      "path": "ProgramData/Adobe/AIR/eulaAccepted",
+      "size": 1,
+      "sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+      "data": "Mw=="
+    },
+    {
+      "path": "users/runner/AppData/Roaming/Macromedia/Flash Player/www.macromedia.com/bin/airappinstaller/airappinstaller.exe",
+      "size": 54632,
+      "sha256": "e277d2a94295506fe1574cf0b4e499b204f83293b290fc1139098d55e2b7c176",
+      "source": "Adobe AIR/Versions/1.0/Resources/airappinstaller.exe"
+    },
+    {
+      "path": "users/runner/AppData/Roaming/Macromedia/Flash Player/www.macromedia.com/bin/airappinstaller/digest.s",
+      "size": 2840,
+      "sha256": "4571ead5d878568c4082003d21f50a39b8687f08e8f631aa20351014373ed2b1",
+      "source": "Adobe AIR/Versions/1.0/Resources/digest.s"
+    }
+  ],
+  "removed": [],
+  "registry": [
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\.air",
+      "name": "",
+      "type": "sz",
+      "data": "AIR.InstallerPackage"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\.air",
+      "name": "Content Type",
+      "type": "sz",
+      "data": "application/vnd.adobe.air-application-installer-package+zip"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\.air\\OpenWithProgids",
+      "name": "AIR.InstallerPackage",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\AIR.InstallerPackage",
+      "name": "",
+      "type": "sz",
+      "data": "Installer Package"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\AIR.InstallerPackage\\DefaultIcon",
+      "name": "",
+      "type": "sz",
+      "data": "C:\\PROG~5P2\\COMM~CP1\\ADOB~553\\Versions\\1.0\\ADOB~DWN.EXE,1"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\AIR.InstallerPackage\\shell\\open",
+      "name": "",
+      "type": "sz",
+      "data": "Install"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\AIR.InstallerPackage\\shell\\open\\command",
+      "name": "",
+      "type": "sz",
+      "data": "C:\\PROG~5P2\\COMM~CP1\\ADOB~553\\Versions\\1.0\\ADOB~DWN.EXE \"%1\""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Features\\16D57985B4C15834DA0BA4E8E32C054A",
+      "name": "Management",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Features\\16D57985B4C15834DA0BA4E8E32C054A",
+      "name": "Runtime",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\16D57985B4C15834DA0BA4E8E32C054A",
+      "name": "AdvertiseFlags",
+      "type": "dword",
+      "data": 388
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\16D57985B4C15834DA0BA4E8E32C054A",
+      "name": "Assignment",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\16D57985B4C15834DA0BA4E8E32C054A",
+      "name": "AuthorizedLUAApp",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\16D57985B4C15834DA0BA4E8E32C054A",
+      "name": "Clients",
+      "type": "multi_sz",
+      "data": [
+        ":"
+      ]
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\16D57985B4C15834DA0BA4E8E32C054A",
+      "name": "InstanceType",
+      "type": "dword",
+      "data": 0
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\16D57985B4C15834DA0BA4E8E32C054A",
+      "name": "Language",
+      "type": "dword",
+      "data": 1033
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\16D57985B4C15834DA0BA4E8E32C054A",
+      "name": "PackageCode",
+      "type": "sz",
+      "data": "28215483375CE6A4C89E164ECE8A53DA"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\16D57985B4C15834DA0BA4E8E32C054A",
+      "name": "ProductName",
+      "type": "sz",
+      "data": "Adobe AIR"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\16D57985B4C15834DA0BA4E8E32C054A",
+      "name": "Version",
+      "type": "dword",
+      "data": 553713665
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\16D57985B4C15834DA0BA4E8E32C054A\\SourceList",
+      "name": "PackageName",
+      "type": "sz",
+      "data": "setup.msi"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\16D57985B4C15834DA0BA4E8E32C054A\\SourceList\\Media",
+      "name": "1",
+      "type": "sz",
+      "data": ";"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\16D57985B4C15834DA0BA4E8E32C054A\\SourceList\\Media",
+      "name": "DiskPrompt",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\16D57985B4C15834DA0BA4E8E32C054A\\SourceList\\Media",
+      "name": "MediaPackage",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\Products\\16D57985B4C15834DA0BA4E8E32C054A\\SourceList\\Net",
+      "name": "1",
+      "type": "expand_sz",
+      "data": "C:\\users\\steamuser\\temp\\air2f31.tmp\\"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Classes\\Installer\\UpgradeCodes\\5D029AD8C14C0E24FB1378AB9489E44E",
+      "name": "16D57985B4C15834DA0BA4E8E32C054A",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Microsoft\\Windows\\CurrentVersion\\Installer\\UpgradeCodes\\5D029AD8C14C0E24FB1378AB9489E44E",
+      "name": "16D57985B4C15834DA0BA4E8E32C054A",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Capture",
+      "type": "key"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Render",
+      "type": "key"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Adobe\\Adobe AIR\\FileTypeRegistration",
+      "name": "",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\RunServices",
+      "type": "key"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Adobe AIR",
+      "name": "DisplayIcon",
+      "type": "sz",
+      "data": "C:\\PROG~5P2\\COMM~CP1\\ADOB~553\\Versions\\1.0\\RESO~HNW\\ADOB~OVN.EXE"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Adobe AIR",
+      "name": "DisplayName",
+      "type": "sz",
+      "data": "Adobe AIR"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Adobe AIR",
+      "name": "DisplayVersion",
+      "type": "sz",
+      "data": "33.1.1.743"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Adobe AIR",
+      "name": "NoModify",
+      "type": "dword",
+      "data": 1
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Adobe AIR",
+      "name": "NoRepair",
+      "type": "dword",
+      "data": 1
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Adobe AIR",
+      "name": "Publisher",
+      "type": "sz",
+      "data": "HARMAN International"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Adobe AIR",
+      "name": "UninstallString",
+      "type": "sz",
+      "data": "C:\\Program Files (x86)\\Common Files\\Adobe AIR\\Versions\\1.0\\Resources\\Adobe AIR Updater.exe -arp:uninstall"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Adobe AIR",
+      "name": "VersionMajor",
+      "type": "dword",
+      "data": 33
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Adobe AIR",
+      "name": "VersionMinor",
+      "type": "dword",
+      "data": 1
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{58975D61-1C4B-4385-ADB0-4A8E3EC250A4}",
+      "name": "AuthorizedCDFPrefix",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{58975D61-1C4B-4385-ADB0-4A8E3EC250A4}",
+      "name": "Comments",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{58975D61-1C4B-4385-ADB0-4A8E3EC250A4}",
+      "name": "Contact",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{58975D61-1C4B-4385-ADB0-4A8E3EC250A4}",
+      "name": "DisplayName",
+      "type": "sz",
+      "data": "Adobe AIR"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{58975D61-1C4B-4385-ADB0-4A8E3EC250A4}",
+      "name": "DisplayVersion",
+      "type": "sz",
+      "data": "33.1.1.743"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{58975D61-1C4B-4385-ADB0-4A8E3EC250A4}",
+      "name": "HelpLink",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{58975D61-1C4B-4385-ADB0-4A8E3EC250A4}",
+      "name": "HelpTelephone",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{58975D61-1C4B-4385-ADB0-4A8E3EC250A4}",
+      "name": "Language",
+      "type": "dword",
+      "data": 1033
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{58975D61-1C4B-4385-ADB0-4A8E3EC250A4}",
+      "name": "ModifyPath",
+      "type": "expand_sz",
+      "data": "MsiExec.exe /I{58975D61-1C4B-4385-ADB0-4A8E3EC250A4}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{58975D61-1C4B-4385-ADB0-4A8E3EC250A4}",
+      "name": "Publisher",
+      "type": "sz",
+      "data": "HARMAN International"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{58975D61-1C4B-4385-ADB0-4A8E3EC250A4}",
+      "name": "ReadMe",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{58975D61-1C4B-4385-ADB0-4A8E3EC250A4}",
+      "name": "Size",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{58975D61-1C4B-4385-ADB0-4A8E3EC250A4}",
+      "name": "UninstallString",
+      "type": "expand_sz",
+      "data": "MsiExec.exe /I{58975D61-1C4B-4385-ADB0-4A8E3EC250A4}"
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{58975D61-1C4B-4385-ADB0-4A8E3EC250A4}",
+      "name": "URLInfoAbout",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{58975D61-1C4B-4385-ADB0-4A8E3EC250A4}",
+      "name": "URLUpdateInfo",
+      "type": "sz",
+      "data": ""
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{58975D61-1C4B-4385-ADB0-4A8E3EC250A4}",
+      "name": "Version",
+      "type": "dword",
+      "data": 553713665
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{58975D61-1C4B-4385-ADB0-4A8E3EC250A4}",
+      "name": "VersionMajor",
+      "type": "dword",
+      "data": 33
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{58975D61-1C4B-4385-ADB0-4A8E3EC250A4}",
+      "name": "VersionMinor",
+      "type": "dword",
+      "data": 1
+    },
+    {
+      "hive": "HKLM",
+      "key": "Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{58975D61-1C4B-4385-ADB0-4A8E3EC250A4}",
+      "name": "WindowsInstaller",
+      "type": "dword",
+      "data": 1
+    },
+    {
+      "hive": "HKLM",
+      "key": "System\\CurrentControlSet\\Control\\Class\\{4D36E968-E325-11CE-BFC1-08002BE10318}\\0000",
+      "name": "DriverDateData",
+      "type": "binary",
+      "data": "82e0a03e5858dd01"
+    },
+    {
+      "hive": "HKLM",
+      "key": "System\\CurrentControlSet\\Control\\Class\\{4D36E968-E325-11CE-BFC1-08002BE10318}\\0000",
+      "name": "SymbolicLinkValue",
+      "type": "binary",
+      "data": "5c00520065006700690073007400720079005c004d0061006300680069006e0065005c00530079007300740065006d005c00430075007200720065006e00740043006f006e00740072006f006c005300650074005c0043006f006e00740072006f006c005c0043006c006100730073005c007b00340044003300360045003900360038002d0045003300320035002d0031003100430045002d0042004600430031002d003000380030003000320042004500310030003300310038007d005c003000300030003000"
+    }
+  ]
+}
